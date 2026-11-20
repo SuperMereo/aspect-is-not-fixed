@@ -1,0 +1,15 @@
+{
+  "name": "supertelicity-metadata",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Generate + validate chive.pub / layers.pub metadata records for the SuperTelicity dataset.",
+  "scripts": {
+    "generate": "python3 generate_metadata.py",
+    "validate": "node validate_metadata.mjs"
+  },
+  "dependencies": {
+    "@atproto/lexicon": "^0.6.2",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,27 @@
+@import "~jspsych/css/jspsych.css";
+
+.jspsych-display-element {
+  background-color: #ffffff;
+}
+
+@media (width <= 480px) {
+  p {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+@media (width > 480px) {
+  p {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+}
+
+p.instructions {
+  text-align: left;
+}
+
+p.example {
+  text-align: center;
+}

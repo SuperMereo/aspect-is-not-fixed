@@ -1,0 +1,74 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.rds
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Node / jspsych-builder
+materials/node_modules/
+materials/packaged/
+node_modules/
+
+# LaTeX
+paper/main.aux
+paper/main.bbl
+paper/main.blg
+paper/main.fdb_latexmk
+paper/main.fls
+paper/main.log
+paper/main.out
+paper/*.synctex.gz
+
+# brms / cmdstan caches
+analysis/**/fits/
+analysis/**/cache/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Build artifacts
+materials/.jspsych-builder/
+materials/packaged/
+
+# Generated stimuli (rebuild with materials/scripts/)
+materials/src/cloze-items.json
+materials/src/proportion-items.json
+materials/src/similarity-items.json
+
+
+# The ELM 4 poster, its panels, and the script that drew them are not
+# distributed.
+poster/
+figures/poster/
+analysis/generate_poster_figures.R
+
+# Raw JATOS dumps and the participant re-identification map. Neither is ever
+# published: the dumps carry raw Prolific IDs, and the map is the one artifact
+# that links those IDs to the UUIDs in data/data-*.csv.
+data/raw-jatos/
+participant-id-map.json
+**/participant-id-map.json
+
+# Generated ATProto layers records + validator deps + local config. Only the
+# generation scripts under data/scripts/ are tracked, not their output.
+data/scripts/records/
+data/scripts/node_modules/
+data/scripts/.env
+
+# OntoNotes 5.0 release tarball: LDC-licensed, never redistributed or committed.
+# data/scripts/make_propbank_sense_distribution.py reads it to build
+# data/propbank-sense-distribution.csv.
+data/ontonotes-release-5.0_LDC2013T19.tgz
+data/ldc/
+
+# Stray R default-device dump, written when a plot call has no explicit device.
+Rplots.pdf

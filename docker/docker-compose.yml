@@ -1,0 +1,24 @@
+services:
+  aspectual-similarity:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: aspectual-similarity:latest
+    container_name: aspectual-similarity
+    # Linux only: uncomment to write files as your host user instead of root.
+    # macOS/Windows Docker Desktop already maps ownership transparently.
+    # user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
+    ports:
+      - "127.0.0.1:8888:8888"
+    volumes:
+      # Mount the whole repo at /workspace so the notebook reads data/ and
+      # writes back to analysis/fits, analysis/cache, figures/.
+      - ..:/workspace
+      # Persist brms / cmdstan compiled models across runs.
+      - r-cache:/root/.cache/R
+    environment:
+      - R_USER_CACHE_DIR=/root/.cache/R
+    shm_size: "2gb"  # Provide 2 GB of shared memory for Stan.
+
+volumes:
+  r-cache:
