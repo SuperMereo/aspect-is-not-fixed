@@ -1,0 +1,1469 @@
+fit,sentence,verb,roleset,concreteness,mean,q2.5,q97.5
+cloze,The advertisement pulled the customers.,pull,pull.01,concrete,0,0,0
+cloze,The advertisement pulled the customers.,pull,pull.06,abstract,1,1,1
+cloze,The advertisement pulled the customers.,pull,pull.09,abstract,0,0,0
+cloze,The affair split the couple.,split,split.01,abstract,1,1,1
+cloze,The affair split the couple.,split,split.01,concrete,0,0,0
+cloze,The analyst cleaned the data.,clean,clean.01,abstract,1,1,1
+cloze,The analyst cleaned the data.,clean,clean.01,concrete,0,0,0
+cloze,The arrow hit the target.,hit,hit.01,abstract,0,0,0
+cloze,The arrow hit the target.,hit,hit.01,concrete,0,0,0
+cloze,The arrow hit the target.,hit,hit.02,abstract,0,0,0
+cloze,The arrow hit the target.,hit,hit.02,concrete,1,1,1
+cloze,The article smeared the celebrity.,smear,smear.01,concrete,0,0,0
+cloze,The article smeared the celebrity.,smear,smear.02,abstract,1,1,1
+cloze,The artist smeared the paint.,smear,smear.01,concrete,1,1,1
+cloze,The artist smeared the paint.,smear,smear.02,abstract,0,0,0
+cloze,The artwork pushed the boundaries.,push,push.01,concrete,0,0,0
+cloze,The artwork pushed the boundaries.,push,push.04,abstract,0,0,0
+cloze,The artwork pushed the boundaries.,push,push.05,abstract,1,1,1
+cloze,The athlete murdered the competition.,murder,murder.01,abstract,1,1,1
+cloze,The athlete murdered the competition.,murder,murder.01,concrete,0,0,0
+cloze,The athlete pushed the limit.,push,push.01,concrete,0,0,0
+cloze,The athlete pushed the limit.,push,push.04,abstract,0,0,0
+cloze,The athlete pushed the limit.,push,push.05,abstract,1,1,1
+cloze,The athlete shot the ball.,shoot,shoot.01,concrete,1,1,1
+cloze,The athlete shot the ball.,shoot,shoot.02,concrete,0,0,0
+cloze,The athlete shot the ball.,shoot,shoot.03,abstract,0,0,0
+cloze,The attacker stabbed the victim.,stab,stab.01,concrete,1,1,1
+cloze,The author closed the chapter.,close,close.01,abstract,1,1,1
+cloze,The author closed the chapter.,close,close.01,concrete,0,0,0
+cloze,The author closed the chapter.,close,close.03,abstract,0,0,0
+cloze,The baker closed the oven.,close,close.01,abstract,0,0,0
+cloze,The baker closed the oven.,close,close.01,concrete,1,1,1
+cloze,The baker closed the oven.,close,close.03,abstract,0,0,0
+cloze,The baker combined the ingredients.,combine,combine.01,abstract,0,0,0
+cloze,The baker combined the ingredients.,combine,combine.01,concrete,1,1,1
+cloze,The baker folded the flour.,fold,fold.01,concrete,1,1,1
+cloze,The baker folded the flour.,fold,fold.03,concrete,0,0,0
+cloze,The baker folded the flour.,fold,fold.06,abstract,0,0,0
+cloze,The baker smeared the frosting.,smear,smear.01,concrete,1,1,1
+cloze,The baker smeared the frosting.,smear,smear.02,abstract,0,0,0
+cloze,The baker split the dough.,split,split.01,abstract,0,0,0
+cloze,The baker split the dough.,split,split.01,concrete,1,1,1
+cloze,The ball bumped the couch.,bump,bump.01,concrete,1,1,1
+cloze,The ball bumped the couch.,bump,bump.02,abstract,0,0,0
+cloze,The ball bumped the couch.,bump,bump.02,concrete,0,0,0
+cloze,The barbarians destroyed the city.,destroy,destroy.01,abstract,0,0,0
+cloze,The barbarians destroyed the city.,destroy,destroy.01,concrete,1,1,1
+cloze,The bartender poured the wine.,pour,pour.01,concrete,1,1,1
+cloze,The bartender shook the martini.,shake,shake.01,abstract,0,0,0
+cloze,The bartender shook the martini.,shake,shake.01,concrete,1,1,1
+cloze,The batter hit the ball.,hit,hit.01,abstract,0,0,0
+cloze,The batter hit the ball.,hit,hit.01,concrete,1,1,1
+cloze,The batter hit the ball.,hit,hit.02,abstract,0,0,0
+cloze,The batter hit the ball.,hit,hit.02,concrete,0,0,0
+cloze,The bookkeeper cleared the payment.,clear,clear.01,concrete,0,0,0
+cloze,The bookkeeper cleared the payment.,clear,clear.02,abstract,1,1,1
+cloze,The bookkeeper cleared the payment.,clear,clear.03,abstract,0,0,0
+cloze,The boss destroyed the morale.,destroy,destroy.01,abstract,1,1,1
+cloze,The boss destroyed the morale.,destroy,destroy.01,concrete,0,0,0
+cloze,The burglar broke the window.,break,break.01,concrete,1,1,1
+cloze,The burglar broke the window.,break,break.13,abstract,0,0,0
+cloze,The burglar broke the window.,break,break.18,abstract,0,0,0
+cloze,The burglar discovered the key.,discover,discover.01,abstract,0,0,0
+cloze,The burglar discovered the key.,discover,discover.01,concrete,1,1,1
+cloze,The business killed the competition.,kill,kill.01,abstract,0,0,0
+cloze,The business killed the competition.,kill,kill.01,concrete,0,0,0
+cloze,The business killed the competition.,kill,kill.03,abstract,1,1,1
+cloze,The business killed the competition.,kill,kill.04,abstract,0,0,0
+cloze,The business pulled the service.,pull,pull.01,concrete,0,0,0
+cloze,The business pulled the service.,pull,pull.06,abstract,0,0,0
+cloze,The business pulled the service.,pull,pull.09,abstract,1,1,1
+cloze,The butler emptied the tub.,empty,empty.01,abstract,0,0,0
+cloze,The butler emptied the tub.,empty,empty.01,concrete,1,1,1
+cloze,The buyer emptied the account.,empty,empty.01,abstract,1,1,1
+cloze,The buyer emptied the account.,empty,empty.01,concrete,0,0,0
+cloze,The candidate jabbed the opponent.,jab,jab.01,abstract,1,1,1
+cloze,The candidate jabbed the opponent.,jab,jab.01,concrete,0,0,0
+cloze,The cat killed the mouse.,kill,kill.01,abstract,0,0,0
+cloze,The cat killed the mouse.,kill,kill.01,concrete,1,1,1
+cloze,The cat killed the mouse.,kill,kill.03,abstract,0,0,0
+cloze,The cat killed the mouse.,kill,kill.04,abstract,0,0,0
+cloze,The chairperson opened the meeting.,open,open.01,concrete,0,0,0
+cloze,The chairperson opened the meeting.,open,open.02,abstract,1,1,1
+cloze,The channel covered the story.,cover,cover.01,abstract,0,0,0
+cloze,The channel covered the story.,cover,cover.02,concrete,0,0,0
+cloze,The channel covered the story.,cover,cover.03,abstract,1,1,1
+cloze,The chauffeur closed the door.,close,close.01,abstract,0,0,0
+cloze,The chauffeur closed the door.,close,close.01,concrete,1,1,1
+cloze,The chauffeur closed the door.,close,close.03,abstract,0,0,0
+cloze,The chef folded the eggs.,fold,fold.01,concrete,1,1,1
+cloze,The chef folded the eggs.,fold,fold.03,concrete,0,0,0
+cloze,The chef folded the eggs.,fold,fold.06,abstract,0,0,0
+cloze,The chef stabbed the potato.,stab,stab.01,concrete,1,1,1
+cloze,The child chipped the teacup.,chip,chip.01,abstract,0,0,0
+cloze,The child chipped the teacup.,chip,chip.01,concrete,1,1,1
+cloze,The child destroyed the sandcastle.,destroy,destroy.01,abstract,0,0,0
+cloze,The child destroyed the sandcastle.,destroy,destroy.01,concrete,1,1,1
+cloze,The child folded the paper.,fold,fold.01,concrete,0,0,0
+cloze,The child folded the paper.,fold,fold.03,concrete,1,1,1
+cloze,The child folded the paper.,fold,fold.06,abstract,0,0,0
+cloze,The child hit the pillow.,hit,hit.01,abstract,0,0,0
+cloze,The child hit the pillow.,hit,hit.01,concrete,1,1,1
+cloze,The child hit the pillow.,hit,hit.02,abstract,0,0,0
+cloze,The child hit the pillow.,hit,hit.02,concrete,0,0,0
+cloze,The cleaner folded the clothes.,fold,fold.01,concrete,0,0,0
+cloze,The cleaner folded the clothes.,fold,fold.03,concrete,1,1,1
+cloze,The cleaner folded the clothes.,fold,fold.06,abstract,0,0,0
+cloze,The cleaner wiped the table.,wipe,wipe.01,abstract,0,0,0
+cloze,The cleaner wiped the table.,wipe,wipe.01,concrete,1,1,1
+cloze,The climber pulled the rope.,pull,pull.01,concrete,1,1,1
+cloze,The climber pulled the rope.,pull,pull.06,abstract,0,0,0
+cloze,The climber pulled the rope.,pull,pull.09,abstract,0,0,0
+cloze,The committee decided the outcome.,decide,decide.01,abstract,1,1,1
+cloze,The company broke the law.,break,break.01,concrete,0,0,0
+cloze,The company broke the law.,break,break.13,abstract,0,0,0
+cloze,The company broke the law.,break,break.18,abstract,1,1,1
+cloze,The company murdered the startup.,murder,murder.01,abstract,1,1,1
+cloze,The company murdered the startup.,murder,murder.01,concrete,0,0,0
+cloze,The company pushed the product.,push,push.01,concrete,0,0,0
+cloze,The company pushed the product.,push,push.04,abstract,1,1,1
+cloze,The company pushed the product.,push,push.05,abstract,0,0,0
+cloze,The company scrubbed the records.,scrub,scrub.01,abstract,1,1,1
+cloze,The company scrubbed the records.,scrub,scrub.01,concrete,0,0,0
+cloze,The consultant opened the discussion.,open,open.01,concrete,0,0,0
+cloze,The consultant opened the discussion.,open,open.02,abstract,1,1,1
+cloze,The controversy split the community.,split,split.01,abstract,1,1,1
+cloze,The controversy split the community.,split,split.01,concrete,0,0,0
+cloze,The cook scrubbed the pot.,scrub,scrub.01,abstract,0,0,0
+cloze,The cook scrubbed the pot.,scrub,scrub.01,concrete,1,1,1
+cloze,The cook washed the plate.,wash,wash.01,concrete,1,1,1
+cloze,The couple killed the evening.,kill,kill.01,abstract,0,0,0
+cloze,The couple killed the evening.,kill,kill.01,concrete,0,0,0
+cloze,The couple killed the evening.,kill,kill.03,abstract,0,0,0
+cloze,The couple killed the evening.,kill,kill.04,abstract,1,1,1
+cloze,The criminal killed the victim.,kill,kill.01,abstract,0,0,0
+cloze,The criminal killed the victim.,kill,kill.01,concrete,1,1,1
+cloze,The criminal killed the victim.,kill,kill.03,abstract,0,0,0
+cloze,The criminal killed the victim.,kill,kill.04,abstract,0,0,0
+cloze,The customer chipped the figurine.,chip,chip.01,abstract,0,0,0
+cloze,The customer chipped the figurine.,chip,chip.01,concrete,1,1,1
+cloze,The dad washed the car.,wash,wash.01,concrete,1,1,1
+cloze,The dean bumped the meeting.,bump,bump.01,concrete,0,0,0
+cloze,The dean bumped the meeting.,bump,bump.02,abstract,1,1,1
+cloze,The dean bumped the meeting.,bump,bump.02,concrete,0,0,0
+cloze,The defendant fought the charges.,fight,fight.01,abstract,1,1,1
+cloze,The defendant fought the charges.,fight,fight.01,concrete,0,0,0
+cloze,The detective investigated the footprints.,investigate,investigate.01,abstract,1,1,1
+cloze,The director shot the scene.,shoot,shoot.01,concrete,0,0,0
+cloze,The director shot the scene.,shoot,shoot.02,concrete,0,0,0
+cloze,The director shot the scene.,shoot,shoot.03,abstract,1,1,1
+cloze,The doctor broke the news.,break,break.01,concrete,0,0,0
+cloze,The doctor broke the news.,break,break.13,abstract,1,1,1
+cloze,The doctor broke the news.,break,break.18,abstract,0,0,0
+cloze,The doctor discovered the cure.,discover,discover.01,abstract,1,1,1
+cloze,The doctor discovered the cure.,discover,discover.01,concrete,0,0,0
+cloze,The doctor jabbed the patient.,jab,jab.01,abstract,0,0,0
+cloze,The doctor jabbed the patient.,jab,jab.01,concrete,1,1,1
+cloze,The donations filled the need.,fill,fill.01,abstract,0,0,0
+cloze,The donations filled the need.,fill,fill.01,concrete,0,0,0
+cloze,The donations filled the need.,fill,fill.06,abstract,1,1,1
+cloze,The driver bumped the curb.,bump,bump.01,concrete,1,1,1
+cloze,The driver bumped the curb.,bump,bump.02,abstract,0,0,0
+cloze,The driver bumped the curb.,bump,bump.02,concrete,0,0,0
+cloze,The editor cleaned the manuscript.,clean,clean.01,abstract,1,1,1
+cloze,The editor cleaned the manuscript.,clean,clean.01,concrete,0,0,0
+cloze,The employee considered the feedback.,consider,consider.02,abstract,1,1,1
+cloze,The engineer wiped the data.,wipe,wipe.01,abstract,1,1,1
+cloze,The engineer wiped the data.,wipe,wipe.01,concrete,0,0,0
+cloze,The event filled the time.,fill,fill.01,abstract,0.790529,0.187324,0.995396
+cloze,The event filled the time.,fill,fill.01,concrete,0.190903,0.00191197,0.763728
+cloze,The event filled the time.,fill,fill.06,abstract,0.0185681,9.59493e-4,0.0547078
+cloze,The event shook the organization.,shake,shake.01,abstract,0.78436,0.280056,0.994324
+cloze,The event shook the organization.,shake,shake.01,concrete,0.21564,0.00567634,0.719944
+cloze,The executive closed the deal.,close,close.01,abstract,0,0,0
+cloze,The executive closed the deal.,close,close.01,concrete,0,0,0
+cloze,The executive closed the deal.,close,close.03,abstract,1,1,1
+cloze,The expenses chipped the savings.,chip,chip.01,abstract,1,1,1
+cloze,The expenses chipped the savings.,chip,chip.01,concrete,0,0,0
+cloze,The explorer discovered the island.,discover,discover.01,abstract,0,0,0
+cloze,The explorer discovered the island.,discover,discover.01,concrete,1,1,1
+cloze,The farmer filled the bucket.,fill,fill.01,abstract,0,0,0
+cloze,The farmer filled the bucket.,fill,fill.01,concrete,1,1,1
+cloze,The farmer filled the bucket.,fill,fill.06,abstract,0,0,0
+cloze,The farmer opened the gate.,open,open.01,concrete,1,1,1
+cloze,The farmer opened the gate.,open,open.02,abstract,0,0,0
+cloze,The festival filled the weekend.,fill,fill.01,abstract,1,1,1
+cloze,The festival filled the weekend.,fill,fill.01,concrete,0,0,0
+cloze,The festival filled the weekend.,fill,fill.06,abstract,0,0,0
+cloze,The founder folded the company.,fold,fold.01,concrete,0,0,0
+cloze,The founder folded the company.,fold,fold.03,concrete,0,0,0
+cloze,The founder folded the company.,fold,fold.06,abstract,1,1,1
+cloze,The gardener bumped the statue.,bump,bump.01,concrete,0,0,0
+cloze,The gardener bumped the statue.,bump,bump.02,abstract,0,0,0
+cloze,The gardener bumped the statue.,bump,bump.02,concrete,1,1,1
+cloze,The gardener shook the tree.,shake,shake.01,abstract,0,0,0
+cloze,The gardener shook the tree.,shake,shake.01,concrete,1,1,1
+cloze,The giraffe fought the lion.,fight,fight.01,abstract,0,0,0
+cloze,The giraffe fought the lion.,fight,fight.01,concrete,1,1,1
+cloze,The guest broke the plate.,break,break.01,concrete,1,1,1
+cloze,The guest broke the plate.,break,break.13,abstract,0,0,0
+cloze,The guest broke the plate.,break,break.18,abstract,0,0,0
+cloze,The hiker cleared the obstacle.,clear,clear.01,concrete,0,0,0
+cloze,The hiker cleared the obstacle.,clear,clear.02,abstract,0,0,0
+cloze,The hiker cleared the obstacle.,clear,clear.03,abstract,1,1,1
+cloze,The horse cleared the jump.,clear,clear.01,concrete,0,0,0
+cloze,The horse cleared the jump.,clear,clear.02,abstract,0,0,0
+cloze,The horse cleared the jump.,clear,clear.03,abstract,1,1,1
+cloze,The horse kicked the stool.,kick,kick.01,concrete,1,1,1
+cloze,The hostess poured the tea.,pour,pour.01,concrete,1,1,1
+cloze,The housekeeper cleaned the kitchen.,clean,clean.01,abstract,0,0,0
+cloze,The housekeeper cleaned the kitchen.,clean,clean.01,concrete,1,1,1
+cloze,The hunter shot the deer.,shoot,shoot.01,concrete,0,0,0
+cloze,The hunter shot the deer.,shoot,shoot.02,concrete,1,1,1
+cloze,The hunter shot the deer.,shoot,shoot.03,abstract,0,0,0
+cloze,The hurricane hit the coastline.,hit,hit.01,abstract,0,0,0
+cloze,The hurricane hit the coastline.,hit,hit.01,concrete,0,0,0
+cloze,The hurricane hit the coastline.,hit,hit.02,abstract,0,0,0
+cloze,The hurricane hit the coastline.,hit,hit.02,concrete,1,1,1
+cloze,The husband murdered the heiress.,murder,murder.01,abstract,0,0,0
+cloze,The husband murdered the heiress.,murder,murder.01,concrete,1,1,1
+cloze,The husband pondered the relationship.,ponder,ponder.01,abstract,1,1,1
+cloze,The idea hit the researcher.,hit,hit.01,abstract,1,1,1
+cloze,The idea hit the researcher.,hit,hit.01,concrete,0,0,0
+cloze,The idea hit the researcher.,hit,hit.02,abstract,0,0,0
+cloze,The idea hit the researcher.,hit,hit.02,concrete,0,0,0
+cloze,The inconsistency shattered the case.,shatter,shatter.01,abstract,1,1,1
+cloze,The inconsistency shattered the case.,shatter,shatter.01,concrete,0,0,0
+cloze,The insurance covered the damage.,cover,cover.01,abstract,1,1,1
+cloze,The insurance covered the damage.,cover,cover.02,concrete,0,0,0
+cloze,The insurance covered the damage.,cover,cover.03,abstract,0,0,0
+cloze,The investor hit the goal.,hit,hit.01,abstract,0,0,0
+cloze,The investor hit the goal.,hit,hit.01,concrete,0,0,0
+cloze,The investor hit the goal.,hit,hit.02,abstract,1,1,1
+cloze,The investor hit the goal.,hit,hit.02,concrete,0,0,0
+cloze,The janitor cleaned the bathroom.,clean,clean.01,abstract,0,0,0
+cloze,The janitor cleaned the bathroom.,clean,clean.01,concrete,1,1,1
+cloze,The janitor scrubbed the floor.,scrub,scrub.01,abstract,0,0,0
+cloze,The janitor scrubbed the floor.,scrub,scrub.01,concrete,1,1,1
+cloze,The joke killed the evening.,kill,kill.01,abstract,1,1,1
+cloze,The joke killed the evening.,kill,kill.01,concrete,0,0,0
+cloze,The joke killed the evening.,kill,kill.03,abstract,0,0,0
+cloze,The joke killed the evening.,kill,kill.04,abstract,0,0,0
+cloze,The journalist broke the story.,break,break.01,concrete,0,0,0
+cloze,The journalist broke the story.,break,break.13,abstract,1,1,1
+cloze,The journalist broke the story.,break,break.18,abstract,0,0,0
+cloze,The journalist smeared the business.,smear,smear.01,concrete,0,0,0
+cloze,The journalist smeared the business.,smear,smear.02,abstract,1,1,1
+cloze,The judge decided the case.,decide,decide.01,abstract,1,1,1
+cloze,The jury debated the case.,debate,debate.01,abstract,1,1,1
+cloze,The lawyer closed the case.,close,close.01,abstract,0,0,0
+cloze,The lawyer closed the case.,close,close.01,concrete,0,0,0
+cloze,The lawyer closed the case.,close,close.03,abstract,1,1,1
+cloze,The lawyer pounded the evidence.,pound,pound.02,abstract,1,1,1
+cloze,The lawyer pounded the evidence.,pound,pound.02,concrete,0,0,0
+cloze,The lawyer proved the case.,prove,prove.01,abstract,1,1,1
+cloze,The lies shattered the trust.,shatter,shatter.01,abstract,1,1,1
+cloze,The lies shattered the trust.,shatter,shatter.01,concrete,0,0,0
+cloze,The love filled the void.,fill,fill.01,abstract,0,0,0
+cloze,The love filled the void.,fill,fill.01,concrete,0,0,0
+cloze,The love filled the void.,fill,fill.06,abstract,1,1,1
+cloze,The lumberjack split the log.,split,split.01,abstract,0,0,0
+cloze,The lumberjack split the log.,split,split.01,concrete,1,1,1
+cloze,The manager folded the project.,fold,fold.01,concrete,0,0,0
+cloze,The manager folded the project.,fold,fold.03,concrete,0,0,0
+cloze,The manager folded the project.,fold,fold.06,abstract,1,1,1
+cloze,The mathematician proved the theorem.,prove,prove.01,abstract,1,1,1
+cloze,The mistake killed the proposal.,kill,kill.01,abstract,1,1,1
+cloze,The mistake killed the proposal.,kill,kill.01,concrete,0,0,0
+cloze,The mistake killed the proposal.,kill,kill.03,abstract,0,0,0
+cloze,The mistake killed the proposal.,kill,kill.04,abstract,0,0,0
+cloze,The mobster murdered the rival.,murder,murder.01,abstract,0,0,0
+cloze,The mobster murdered the rival.,murder,murder.01,concrete,1,1,1
+cloze,The murder shook the town.,shake,shake.01,abstract,1,1,1
+cloze,The murder shook the town.,shake,shake.01,concrete,0,0,0
+cloze,The musician pounded the drum.,pound,pound.02,abstract,0,0,0
+cloze,The musician pounded the drum.,pound,pound.02,concrete,1,1,1
+cloze,The negativity chipped the morale.,chip,chip.01,abstract,1,1,1
+cloze,The negativity chipped the morale.,chip,chip.01,concrete,0,0,0
+cloze,The news shook the family.,shake,shake.01,abstract,1,1,1
+cloze,The news shook the family.,shake,shake.01,concrete,0,0,0
+cloze,The nurse covered the wound.,cover,cover.01,abstract,0,0,0
+cloze,The nurse covered the wound.,cover,cover.02,concrete,1,1,1
+cloze,The nurse covered the wound.,cover,cover.03,abstract,0,0,0
+cloze,The officer cleared the request.,clear,clear.01,concrete,0,0,0
+cloze,The officer cleared the request.,clear,clear.02,abstract,1,1,1
+cloze,The officer cleared the request.,clear,clear.03,abstract,0,0,0
+cloze,The organization broke the thing.,break,break.01,concrete,0.928745,0.682594,0.984468
+cloze,The organization broke the thing.,break,break.13,abstract,0.0227196,0.0075695,0.0448756
+cloze,The organization broke the thing.,break,break.18,abstract,0.048535,6.70339e-4,0.29938
+cloze,The organization considered the thing.,consider,consider.02,abstract,1,1,1
+cloze,The organization covered the stuff.,cover,cover.01,abstract,0.881618,0.71782,0.992698
+cloze,The organization covered the stuff.,cover,cover.02,concrete,0.0805311,0.00486394,0.193074
+cloze,The organization covered the stuff.,cover,cover.03,abstract,0.0378511,0.00230696,0.0921713
+cloze,The organization covered the thing.,cover,cover.01,abstract,0.265275,0.0268995,0.458557
+cloze,The organization covered the thing.,cover,cover.02,concrete,0.158971,0.0158405,0.277965
+cloze,The organization covered the thing.,cover,cover.03,abstract,0.575754,0.27523,0.956467
+cloze,The organization decided the thing.,decide,decide.01,abstract,1,1,1
+cloze,The organization killed the other organization.,kill,kill.01,abstract,0.403896,0.0474571,0.888671
+cloze,The organization killed the other organization.,kill,kill.01,concrete,0.574152,0.0963666,0.925671
+cloze,The organization killed the other organization.,kill,kill.03,abstract,0.0208017,1.90805e-4,0.131236
+cloze,The organization killed the other organization.,kill,kill.04,abstract,0.00115018,2.71865e-5,0.00429848
+cloze,The organization killed the people.,kill,kill.01,abstract,0.403896,0.0474571,0.888671
+cloze,The organization killed the people.,kill,kill.01,concrete,0.574152,0.0963666,0.925671
+cloze,The organization killed the people.,kill,kill.03,abstract,0.0208017,1.90805e-4,0.131236
+cloze,The organization killed the people.,kill,kill.04,abstract,0.00115018,2.71865e-5,0.00429848
+cloze,The organization murdered the other organization.,murder,murder.01,abstract,0.771883,0.129274,0.998539
+cloze,The organization murdered the other organization.,murder,murder.01,concrete,0.228117,0.00146111,0.870726
+cloze,The organization pulled the thing.,pull,pull.01,concrete,0.873242,0.492333,0.965122
+cloze,The organization pulled the thing.,pull,pull.06,abstract,0.0482025,0.0174715,0.0884842
+cloze,The organization pulled the thing.,pull,pull.09,abstract,0.0785557,9.96101e-4,0.478556
+cloze,The organization pushed the thing.,push,push.01,concrete,0.429894,0.0434861,0.731449
+cloze,The organization pushed the thing.,push,push.04,abstract,0.558058,0.248149,0.955266
+cloze,The organization pushed the thing.,push,push.05,abstract,0.0120481,8.78413e-4,0.0319495
+cloze,The organization scrubbed the thing.,scrub,scrub.01,abstract,0.802897,0.299693,0.996788
+cloze,The organization scrubbed the thing.,scrub,scrub.01,concrete,0.197103,0.00321169,0.700307
+cloze,The organization scrubbed the things.,scrub,scrub.01,abstract,0.802897,0.299693,0.996788
+cloze,The organization scrubbed the things.,scrub,scrub.01,concrete,0.197103,0.00321169,0.700307
+cloze,The painter combined the colors.,combine,combine.01,abstract,0,0,0
+cloze,The painter combined the colors.,combine,combine.01,concrete,1,1,1
+cloze,The patient fought the illness.,fight,fight.01,abstract,1,1,1
+cloze,The patient fought the illness.,fight,fight.01,concrete,0,0,0
+cloze,The people debated the thing.,debate,debate.01,abstract,1,1,1
+cloze,The people destroyed the place.,destroy,destroy.01,abstract,0.143483,6.61715e-4,0.747139
+cloze,The people destroyed the place.,destroy,destroy.01,concrete,0.856517,0.252861,0.999338
+cloze,The people destroyed the stuff.,destroy,destroy.01,abstract,0.70983,0.0654976,0.997926
+cloze,The people destroyed the stuff.,destroy,destroy.01,concrete,0.29017,0.00207384,0.934502
+cloze,The people killed the time.,kill,kill.01,abstract,0.403841,0.0452426,0.888702
+cloze,The people killed the time.,kill,kill.01,concrete,0.572345,0.0959792,0.925055
+cloze,The people killed the time.,kill,kill.03,abstract,0.00112961,2.89624e-5,0.0041992
+cloze,The people killed the time.,kill,kill.04,abstract,0.0226838,1.75692e-4,0.141782
+cloze,The people pulled the thing.,pull,pull.01,concrete,0.873242,0.492333,0.965122
+cloze,The people pulled the thing.,pull,pull.06,abstract,0.0482025,0.0174715,0.0884842
+cloze,The people pulled the thing.,pull,pull.09,abstract,0.0785557,9.96101e-4,0.478556
+cloze,The person broke the thing.,break,break.01,concrete,0.972401,0.948953,0.988879
+cloze,The person broke the thing.,break,break.13,abstract,0.0237898,0.00882643,0.0461592
+cloze,The person broke the thing.,break,break.18,abstract,0.0038088,1.02514e-4,0.0141873
+cloze,The person bumped the thing.,bump,bump.01,concrete,0.838402,0.503215,0.994103
+cloze,The person bumped the thing.,bump,bump.02,abstract,0.0818264,0.00103436,0.335609
+cloze,The person bumped the thing.,bump,bump.02,concrete,0.0797714,0.0010074,0.325749
+cloze,The person chipped the thing.,chip,chip.01,abstract,0.193233,0.00143376,0.836492
+cloze,The person chipped the thing.,chip,chip.01,concrete,0.806767,0.163508,0.998566
+cloze,The person cleaned the place.,clean,clean.01,abstract,0.169452,5.78941e-4,0.850352
+cloze,The person cleaned the place.,clean,clean.01,concrete,0.830548,0.149648,0.999421
+cloze,The person cleaned the stuff.,clean,clean.01,abstract,0.70879,0.044221,0.998619
+cloze,The person cleaned the stuff.,clean,clean.01,concrete,0.29121,0.001381,0.955779
+cloze,The person cleaned the thing.,clean,clean.01,abstract,0.70879,0.044221,0.998619
+cloze,The person cleaned the thing.,clean,clean.01,concrete,0.29121,0.001381,0.955779
+cloze,The person cleared the place.,clear,clear.01,concrete,0.92202,0.793863,0.995465
+cloze,The person cleared the place.,clear,clear.02,abstract,0.0585289,0.00326774,0.158102
+cloze,The person cleared the place.,clear,clear.03,abstract,0.0194509,9.54729e-4,0.0575069
+cloze,The person cleared the stuff.,clear,clear.01,concrete,0.92202,0.793863,0.995465
+cloze,The person cleared the stuff.,clear,clear.02,abstract,0.0585289,0.00326774,0.158102
+cloze,The person cleared the stuff.,clear,clear.03,abstract,0.0194509,9.54729e-4,0.0575069
+cloze,The person cleared the thing.,clear,clear.01,concrete,0.215221,0.013961,0.471492
+cloze,The person cleared the thing.,clear,clear.02,abstract,0.588675,0.370355,0.801674
+cloze,The person cleared the thing.,clear,clear.03,abstract,0.196104,0.0789252,0.352038
+cloze,The person closed the thing.,close,close.01,abstract,0.412152,0.0242022,0.880744
+cloze,The person closed the thing.,close,close.01,concrete,0.504776,0.0397705,0.893638
+cloze,The person closed the thing.,close,close.03,abstract,0.0830718,0.0516523,0.121345
+cloze,The person combined the organizations.,combine,combine.01,abstract,0.827917,0.201196,0.998901
+cloze,The person combined the organizations.,combine,combine.01,concrete,0.172083,0.00109901,0.798804
+cloze,The person combined the things.,combine,combine.01,abstract,0.544313,0.0385385,0.975689
+cloze,The person combined the things.,combine,combine.01,concrete,0.455687,0.0243114,0.961462
+cloze,The person concluded the thing.,conclude,conclude.02,abstract,1,1,1
+cloze,The person considered the stuff.,consider,consider.02,abstract,1,1,1
+cloze,The person covered the thing.,cover,cover.01,abstract,0.14589,0.00919266,0.339329
+cloze,The person covered the thing.,cover,cover.02,concrete,0.581452,0.437836,0.702949
+cloze,The person covered the thing.,cover,cover.03,abstract,0.272658,0.194195,0.357172
+cloze,The person decided the thing.,decide,decide.01,abstract,1,1,1
+cloze,The person destroyed the thing.,destroy,destroy.01,abstract,0.401763,0.0104952,0.95348
+cloze,The person destroyed the thing.,destroy,destroy.01,concrete,0.598237,0.0465197,0.989505
+cloze,The person discovered the place.,discover,discover.01,abstract,0.198839,0.00114474,0.852976
+cloze,The person discovered the place.,discover,discover.01,concrete,0.801161,0.147024,0.998855
+cloze,The person discovered the thing.,discover,discover.01,abstract,0.481649,0.0177532,0.974595
+cloze,The person discovered the thing.,discover,discover.01,concrete,0.518351,0.0254052,0.982247
+cloze,The person emptied the place.,empty,empty.01,abstract,0.810456,0.19143,0.998483
+cloze,The person emptied the place.,empty,empty.01,concrete,0.189544,0.00151748,0.80857
+cloze,The person emptied the thing.,empty,empty.01,abstract,0.511407,0.0376808,0.971057
+cloze,The person emptied the thing.,empty,empty.01,concrete,0.488593,0.0289429,0.962319
+cloze,The person filled the thing.,fill,fill.01,abstract,0.481471,0.0371641,0.955017
+cloze,The person filled the thing.,fill,fill.01,concrete,0.508951,0.0348289,0.954407
+cloze,The person filled the thing.,fill,fill.06,abstract,0.00957768,4.39553e-4,0.0289287
+cloze,The person folded the organization.,fold,fold.01,concrete,0.074688,0.00222723,0.263204
+cloze,The person folded the organization.,fold,fold.03,concrete,0.148728,0.00695502,0.425434
+cloze,The person folded the organization.,fold,fold.06,abstract,0.776584,0.413687,0.98914
+cloze,The person folded the stuff.,fold,fold.01,concrete,0.300344,0.0520908,0.633173
+cloze,The person folded the stuff.,fold,fold.03,concrete,0.612083,0.282429,0.889205
+cloze,The person folded the stuff.,fold,fold.06,abstract,0.087573,0.00364547,0.285196
+cloze,The person folded the thing.,fold,fold.01,concrete,0.074688,0.00222723,0.263204
+cloze,The person folded the thing.,fold,fold.03,concrete,0.148728,0.00695502,0.425434
+cloze,The person folded the thing.,fold,fold.06,abstract,0.776584,0.413687,0.98914
+cloze,The person folded the things.,fold,fold.01,concrete,0.300344,0.0520908,0.633173
+cloze,The person folded the things.,fold,fold.03,concrete,0.612083,0.282429,0.889205
+cloze,The person folded the things.,fold,fold.06,abstract,0.087573,0.00364547,0.285196
+cloze,The person fought the other person.,fight,fight.01,abstract,0.193457,0.00118996,0.819972
+cloze,The person fought the other person.,fight,fight.01,concrete,0.806543,0.180028,0.99881
+cloze,The person fought the thing.,fight,fight.01,abstract,0.781546,0.135435,0.998572
+cloze,The person fought the thing.,fight,fight.01,concrete,0.218454,0.00142791,0.864565
+cloze,The person fought the things.,fight,fight.01,abstract,0.781546,0.135435,0.998572
+cloze,The person fought the things.,fight,fight.01,concrete,0.218454,0.00142791,0.864565
+cloze,The person hit the thing.,hit,hit.01,abstract,0.0603643,2.94071e-4,0.330052
+cloze,The person hit the thing.,hit,hit.01,concrete,0.72349,0.23738,0.94392
+cloze,The person hit the thing.,hit,hit.02,abstract,0.181866,0.00862122,0.473741
+cloze,The person hit the thing.,hit,hit.02,concrete,0.0342795,4.65853e-4,0.126273
+cloze,The person investigated the thing.,investigate,investigate.01,abstract,1,1,1
+cloze,The person investigated the things.,investigate,investigate.01,abstract,1,1,1
+cloze,The person jabbed the other person.,jab,jab.01,abstract,0.526381,0.0313075,0.974922
+cloze,The person jabbed the other person.,jab,jab.01,concrete,0.473619,0.0250783,0.968692
+cloze,The person jabbed the thing.,jab,jab.01,abstract,0.526381,0.0313075,0.974922
+cloze,The person jabbed the thing.,jab,jab.01,concrete,0.473619,0.0250783,0.968692
+cloze,The person kicked the thing.,kick,kick.01,concrete,1,1,1
+cloze,The person killed the other person.,kill,kill.01,abstract,0.137793,0.00120302,0.648122
+cloze,The person killed the other person.,kill,kill.01,concrete,0.861588,0.348898,0.998698
+cloze,The person killed the other person.,kill,kill.03,abstract,3.09063e-4,2.09091e-6,0.00154365
+cloze,The person killed the other person.,kill,kill.04,abstract,3.09927e-4,2.11441e-6,0.0015682
+cloze,The person killed the time.,kill,kill.01,abstract,0.785283,0.286412,0.990864
+cloze,The person killed the time.,kill,kill.01,concrete,0.210912,0.00685638,0.706931
+cloze,The person killed the time.,kill,kill.03,abstract,3.81303e-4,4.1143e-6,0.00177382
+cloze,The person killed the time.,kill,kill.04,abstract,0.00342367,5.42004e-5,0.0152121
+cloze,The person murdered the other people.,murder,murder.01,abstract,0.771883,0.129274,0.998539
+cloze,The person murdered the other people.,murder,murder.01,concrete,0.228117,0.00146111,0.870726
+cloze,The person murdered the other person.,murder,murder.01,abstract,0.183107,0.00115684,0.811818
+cloze,The person murdered the other person.,murder,murder.01,concrete,0.816893,0.188182,0.998843
+cloze,The person opened the event.,open,open.01,concrete,0.401558,0.0398932,0.697714
+cloze,The person opened the event.,open,open.02,abstract,0.598442,0.302286,0.960107
+cloze,The person opened the thing.,open,open.01,concrete,0.969822,0.918421,0.998435
+cloze,The person opened the thing.,open,open.02,abstract,0.0301779,0.00156451,0.081579
+cloze,The person pondered the thing.,ponder,ponder.01,abstract,1,1,1
+cloze,The person pounded the stuff.,pound,pound.02,abstract,0.733633,0.110539,0.997462
+cloze,The person pounded the stuff.,pound,pound.02,concrete,0.266367,0.00253758,0.889461
+cloze,The person pounded the thing.,pound,pound.02,abstract,0.406437,0.0178549,0.95368
+cloze,The person pounded the thing.,pound,pound.02,concrete,0.593563,0.0463195,0.982145
+cloze,The person poured the stuff.,pour,pour.01,concrete,1,1,1
+cloze,The person proved the thing.,prove,prove.01,abstract,1,1,1
+cloze,The person pulled the thing.,pull,pull.01,concrete,0.990003,0.968928,0.999572
+cloze,The person pulled the thing.,pull,pull.06,abstract,0.00886983,3.61636e-4,0.0279466
+cloze,The person pulled the thing.,pull,pull.09,abstract,0.00112742,8.47003e-6,0.00545992
+cloze,The person pushed the thing.,push,push.01,concrete,0.836025,0.776505,0.887115
+cloze,The person pushed the thing.,push,push.04,abstract,0.140512,0.0935181,0.19687
+cloze,The person pushed the thing.,push,push.05,abstract,0.0234633,0.00638287,0.0510459
+cloze,The person pushed the things.,push,push.01,concrete,0.687131,0.21935,0.848098
+cloze,The person pushed the things.,push,push.04,abstract,0.115435,0.0342862,0.177965
+cloze,The person pushed the things.,push,push.05,abstract,0.197434,0.0287746,0.746039
+cloze,The person scrubbed the place.,scrub,scrub.01,abstract,0.155825,0.00200599,0.643623
+cloze,The person scrubbed the place.,scrub,scrub.01,concrete,0.844175,0.356377,0.997994
+cloze,The person scrubbed the thing.,scrub,scrub.01,abstract,0.155825,0.00200599,0.643623
+cloze,The person scrubbed the thing.,scrub,scrub.01,concrete,0.844175,0.356377,0.997994
+cloze,The person shattered the stuff.,shatter,shatter.01,abstract,0.21965,0.00138195,0.865641
+cloze,The person shattered the stuff.,shatter,shatter.01,concrete,0.78035,0.134359,0.998618
+cloze,The person shattered the thing.,shatter,shatter.01,abstract,0.21965,0.00138195,0.865641
+cloze,The person shattered the thing.,shatter,shatter.01,concrete,0.78035,0.134359,0.998618
+cloze,The person shook the thing.,shake,shake.01,abstract,0.134065,0.00159088,0.608181
+cloze,The person shook the thing.,shake,shake.01,concrete,0.865935,0.391819,0.998409
+cloze,The person shot the event.,shoot,shoot.01,concrete,0.0948541,0.00748211,0.193039
+cloze,The person shot the event.,shoot,shoot.02,concrete,0.232015,0.0185289,0.452599
+cloze,The person shot the event.,shoot,shoot.03,abstract,0.673131,0.369074,0.97378
+cloze,The person shot the other person.,shoot,shoot.01,concrete,0.0558721,0.00323834,0.1387
+cloze,The person shot the other person.,shoot,shoot.02,concrete,0.889233,0.729717,0.993549
+cloze,The person shot the other person.,shoot,shoot.03,abstract,0.0548945,0.00326535,0.138738
+cloze,The person shot the thing.,shoot,shoot.01,concrete,0.278451,0.199581,0.366213
+cloze,The person shot the thing.,shoot,shoot.02,concrete,0.678274,0.584268,0.7647
+cloze,The person shot the thing.,shoot,shoot.03,abstract,0.0432747,0.00231827,0.117736
+cloze,The person shot the things.,shoot,shoot.01,concrete,0.67804,0.380025,0.97306
+cloze,The person shot the things.,shoot,shoot.02,concrete,0.229743,0.0188947,0.448417
+cloze,The person shot the things.,shoot,shoot.03,abstract,0.0922171,0.00754096,0.19133
+cloze,The person smeared the organization.,smear,smear.01,concrete,0.17558000000000001,0.0036865,0.661027
+cloze,The person smeared the organization.,smear,smear.02,abstract,0.82442,0.338973,0.996313
+cloze,The person smeared the stuff.,smear,smear.01,concrete,0.833997,0.361375,0.99628
+cloze,The person smeared the stuff.,smear,smear.02,abstract,0.166003,0.00372021,0.638625
+cloze,The person split the thing.,split,split.01,abstract,0.192497,0.00119069,0.833199
+cloze,The person split the thing.,split,split.01,concrete,0.807503,0.166801,0.998809
+cloze,The person stabbed the other person.,stab,stab.01,concrete,1,1,1
+cloze,The person stabbed the thing.,stab,stab.01,concrete,1,1,1
+cloze,The person washed the thing.,wash,wash.01,concrete,1,1,1
+cloze,The person wiped the stuff.,wipe,wipe.01,abstract,0.726339,0.0745461,0.998375
+cloze,The person wiped the stuff.,wipe,wipe.01,concrete,0.273661,0.0016246,0.925454
+cloze,The person wiped the thing.,wipe,wipe.01,abstract,0.429102,0.0116744,0.964242
+cloze,The person wiped the thing.,wipe,wipe.01,concrete,0.570898,0.0357583,0.988326
+cloze,The photographer shot the wedding.,shoot,shoot.01,concrete,0,0,0
+cloze,The photographer shot the wedding.,shoot,shoot.02,concrete,0,0,0
+cloze,The photographer shot the wedding.,shoot,shoot.03,abstract,1,1,1
+cloze,The pilot pushed the button.,push,push.01,concrete,1,1,1
+cloze,The pilot pushed the button.,push,push.04,abstract,0,0,0
+cloze,The pilot pushed the button.,push,push.05,abstract,0,0,0
+cloze,The player kicked the ball.,kick,kick.01,concrete,1,1,1
+cloze,The policy covered the accident.,cover,cover.01,abstract,1,1,1
+cloze,The policy covered the accident.,cover,cover.02,concrete,0,0,0
+cloze,The policy covered the accident.,cover,cover.03,abstract,0,0,0
+cloze,The politician pushed the policy.,push,push.01,concrete,0,0,0
+cloze,The politician pushed the policy.,push,push.04,abstract,1,1,1
+cloze,The politician pushed the policy.,push,push.05,abstract,0,0,0
+cloze,The politicians debated the law.,debate,debate.01,abstract,1,1,1
+cloze,The potter pounded the clay.,pound,pound.02,abstract,0,0,0
+cloze,The potter pounded the clay.,pound,pound.02,concrete,1,1,1
+cloze,The presenter closed the speech.,close,close.01,abstract,1,1,1
+cloze,The presenter closed the speech.,close,close.01,concrete,0,0,0
+cloze,The presenter closed the speech.,close,close.03,abstract,0,0,0
+cloze,The president broke the promise.,break,break.01,concrete,0,0,0
+cloze,The president broke the promise.,break,break.13,abstract,0,0,0
+cloze,The president broke the promise.,break,break.18,abstract,1,1,1
+cloze,The programmer emptied the cache.,empty,empty.01,abstract,1,1,1
+cloze,The programmer emptied the cache.,empty,empty.01,concrete,0,0,0
+cloze,The prosecutor concluded the investigation.,conclude,conclude.02,abstract,1,1,1
+cloze,The publisher scrubbed the article.,scrub,scrub.01,abstract,1,1,1
+cloze,The publisher scrubbed the article.,scrub,scrub.01,concrete,0,0,0
+cloze,The pundit jabbed the mandate.,jab,jab.01,abstract,1,1,1
+cloze,The pundit jabbed the mandate.,jab,jab.01,concrete,0,0,0
+cloze,The regulators pulled the product.,pull,pull.01,concrete,0,0,0
+cloze,The regulators pulled the product.,pull,pull.06,abstract,0,0,0
+cloze,The regulators pulled the product.,pull,pull.09,abstract,1,1,1
+cloze,The researcher pondered the question.,ponder,ponder.01,abstract,1,1,1
+cloze,The reviewer destroyed the book.,destroy,destroy.01,abstract,1,1,1
+cloze,The reviewer destroyed the book.,destroy,destroy.01,concrete,0,0,0
+cloze,The rider jabbed the horse.,jab,jab.01,abstract,0,0,0
+cloze,The rider jabbed the horse.,jab,jab.01,concrete,1,1,1
+cloze,The robber shattered the window.,shatter,shatter.01,abstract,0,0,0
+cloze,The robber shattered the window.,shatter,shatter.01,concrete,1,1,1
+cloze,The robber shot the victim.,shoot,shoot.01,concrete,0,0,0
+cloze,The robber shot the victim.,shoot,shoot.02,concrete,1,1,1
+cloze,The robber shot the victim.,shoot,shoot.03,abstract,0,0,0
+cloze,The sailor emptied the bucket.,empty,empty.01,abstract,0,0,0
+cloze,The sailor emptied the bucket.,empty,empty.01,concrete,1,1,1
+cloze,The scandal pulled the reporters.,pull,pull.01,concrete,0,0,0
+cloze,The scandal pulled the reporters.,pull,pull.06,abstract,1,1,1
+cloze,The scandal pulled the reporters.,pull,pull.09,abstract,0,0,0
+cloze,The school considered the request.,consider,consider.02,abstract,1,1,1
+cloze,The secretary filled the schedule.,fill,fill.01,abstract,1,1,1
+cloze,The secretary filled the schedule.,fill,fill.01,concrete,0,0,0
+cloze,The secretary filled the schedule.,fill,fill.06,abstract,0,0,0
+cloze,The shopper pushed the cart.,push,push.01,concrete,1,1,1
+cloze,The shopper pushed the cart.,push,push.04,abstract,0,0,0
+cloze,The shopper pushed the cart.,push,push.05,abstract,0,0,0
+cloze,The singer shattered the glass.,shatter,shatter.01,abstract,0,0,0
+cloze,The singer shattered the glass.,shatter,shatter.01,concrete,1,1,1
+cloze,The snow covered the footprints.,cover,cover.01,abstract,0,0,0
+cloze,The snow covered the footprints.,cover,cover.02,concrete,1,1,1
+cloze,The snow covered the footprints.,cover,cover.03,abstract,0,0,0
+cloze,The soldiers fought the enemy.,fight,fight.01,abstract,0,0,0
+cloze,The soldiers fought the enemy.,fight,fight.01,concrete,1,1,1
+cloze,The solution hit the inventor.,hit,hit.01,abstract,1,1,1
+cloze,The solution hit the inventor.,hit,hit.01,concrete,0,0,0
+cloze,The solution hit the inventor.,hit,hit.02,abstract,0,0,0
+cloze,The solution hit the inventor.,hit,hit.02,concrete,0,0,0
+cloze,The speaker concluded the presentation.,conclude,conclude.02,abstract,1,1,1
+cloze,The speaker pounded the point.,pound,pound.02,abstract,1,1,1
+cloze,The speaker pounded the point.,pound,pound.02,concrete,0,0,0
+cloze,The student discovered the answer.,discover,discover.01,abstract,1,1,1
+cloze,The student discovered the answer.,discover,discover.01,concrete,0,0,0
+cloze,The stuff covered the things.,cover,cover.01,abstract,0.183486,0.0134508,0.387095
+cloze,The stuff covered the things.,cover,cover.02,concrete,0.764874,0.504845,0.982425
+cloze,The stuff covered the things.,cover,cover.03,abstract,0.0516402,0.00376384,0.111298
+cloze,The teacher bumped the deadline.,bump,bump.01,concrete,0,0,0
+cloze,The teacher bumped the deadline.,bump,bump.02,abstract,1,1,1
+cloze,The teacher bumped the deadline.,bump,bump.02,concrete,0,0,0
+cloze,The teacher combined the classes.,combine,combine.01,abstract,1,1,1
+cloze,The teacher combined the classes.,combine,combine.01,concrete,0,0,0
+cloze,The teacher opened the window.,open,open.01,concrete,1,1,1
+cloze,The teacher opened the window.,open,open.02,abstract,0,0,0
+cloze,The teacher wiped the spill.,wipe,wipe.01,abstract,0,0,0
+cloze,The teacher wiped the spill.,wipe,wipe.01,concrete,1,1,1
+cloze,The team killed the rivals.,kill,kill.01,abstract,0,0,0
+cloze,The team killed the rivals.,kill,kill.01,concrete,0,0,0
+cloze,The team killed the rivals.,kill,kill.03,abstract,1,1,1
+cloze,The team killed the rivals.,kill,kill.04,abstract,0,0,0
+cloze,The technician shot the fireworks.,shoot,shoot.01,concrete,1,1,1
+cloze,The technician shot the fireworks.,shoot,shoot.02,concrete,0,0,0
+cloze,The technician shot the fireworks.,shoot,shoot.03,abstract,0,0,0
+cloze,The thief wiped the phone.,wipe,wipe.01,abstract,1,1,1
+cloze,The thief wiped the phone.,wipe,wipe.01,concrete,0,0,0
+cloze,The thing bumped the other thing.,bump,bump.01,concrete,0.966566,0.837132,0.999724
+cloze,The thing bumped the other thing.,bump,bump.02,abstract,0.0171568,6.16942e-5,0.0974535
+cloze,The thing bumped the other thing.,bump,bump.02,concrete,0.0162776,6.18299e-5,0.0928961
+cloze,The thing chipped the stuff.,chip,chip.01,abstract,0.785067,0.144487,0.998446
+cloze,The thing chipped the stuff.,chip,chip.01,concrete,0.214933,0.00155374,0.855513
+cloze,The thing cleared the other thing.,clear,clear.01,concrete,0.40088,0.050906,0.638672
+cloze,The thing cleared the other thing.,clear,clear.02,abstract,0.161959,0.0196156,0.291084
+cloze,The thing cleared the other thing.,clear,clear.03,abstract,0.437161,0.130366,0.928934
+cloze,The thing covered the other thing.,cover,cover.01,abstract,0.881618,0.71782,0.992698
+cloze,The thing covered the other thing.,cover,cover.02,concrete,0.0805311,0.00486394,0.193074
+cloze,The thing covered the other thing.,cover,cover.03,abstract,0.0378511,0.00230696,0.0921713
+cloze,The thing filled the place.,fill,fill.01,abstract,0.319254,0.0120791,0.757774
+cloze,The thing filled the place.,fill,fill.01,concrete,0.332853,0.0126389,0.744358
+cloze,The thing filled the place.,fill,fill.06,abstract,0.347893,0.101106,0.885009
+cloze,The thing fought the other thing.,fight,fight.01,abstract,0.193457,0.00118996,0.819972
+cloze,The thing fought the other thing.,fight,fight.01,concrete,0.806543,0.180028,0.99881
+cloze,The thing hit the other thing.,hit,hit.01,abstract,0.117378,0.00118742,0.480065
+cloze,The thing hit the other thing.,hit,hit.01,concrete,0.281683,0.0159116,0.605184
+cloze,The thing hit the other thing.,hit,hit.02,abstract,0.0783714,9.72164e-4,0.247471
+cloze,The thing hit the other thing.,hit,hit.02,concrete,0.522568,0.0450449,0.952295
+cloze,The thing hit the person.,hit,hit.01,abstract,0.551663,0.0365983,0.978773
+cloze,The thing hit the person.,hit,hit.01,concrete,0.307753,0.00681439,0.701039
+cloze,The thing hit the person.,hit,hit.02,abstract,0.0643922,0.00121261,0.19988
+cloze,The thing hit the person.,hit,hit.02,concrete,0.0761926,0.00132921,0.216828
+cloze,The thing hit the place.,hit,hit.01,abstract,0.117378,0.00118742,0.480065
+cloze,The thing hit the place.,hit,hit.01,concrete,0.281683,0.0159116,0.605184
+cloze,The thing hit the place.,hit,hit.02,abstract,0.0783714,9.72164e-4,0.247471
+cloze,The thing hit the place.,hit,hit.02,concrete,0.522568,0.0450449,0.952295
+cloze,The thing kicked the other thing.,kick,kick.01,concrete,1,1,1
+cloze,The thing killed the other thing.,kill,kill.01,abstract,0.410879,0.052353,0.896185
+cloze,The thing killed the other thing.,kill,kill.01,concrete,0.588747,0.103659,0.947241
+cloze,The thing killed the other thing.,kill,kill.03,abstract,1.86992e-4,1.45131e-6,9.13161e-4
+cloze,The thing killed the other thing.,kill,kill.04,abstract,1.87609e-4,1.38761e-6,9.27702e-4
+cloze,The thing pulled the people.,pull,pull.01,concrete,0.66607,0.124077,0.908577
+cloze,The thing pulled the people.,pull,pull.06,abstract,0.329192,0.084914,0.87515
+cloze,The thing pulled the people.,pull,pull.09,abstract,0.00473821,7.6433e-5,0.0184323
+cloze,The thing shattered the other thing.,shatter,shatter.01,abstract,0.803292,0.131874,0.998745
+cloze,The thing shattered the other thing.,shatter,shatter.01,concrete,0.196708,0.0012553900000000001,0.868126
+cloze,The thing shook the people.,shake,shake.01,abstract,0.78436,0.280056,0.994324
+cloze,The thing shook the people.,shake,shake.01,concrete,0.21564,0.00567634,0.719944
+cloze,The thing smeared the person.,smear,smear.01,concrete,0.17558000000000001,0.0036865,0.661027
+cloze,The thing smeared the person.,smear,smear.02,abstract,0.82442,0.338973,0.996313
+cloze,The thing split the organization.,split,split.01,abstract,0.791896,0.165603,0.99857
+cloze,The thing split the organization.,split,split.01,concrete,0.208104,0.00142988,0.83439700000000006
+cloze,The thing split the people.,split,split.01,abstract,0.791896,0.165603,0.99857
+cloze,The thing split the people.,split,split.01,concrete,0.208104,0.00142988,0.83439700000000006
+cloze,The things chipped the other things.,chip,chip.01,abstract,0.785067,0.144487,0.998446
+cloze,The things chipped the other things.,chip,chip.01,concrete,0.214933,0.00155374,0.855513
+cloze,The things filled the other thing.,fill,fill.01,abstract,0.319254,0.0120791,0.757774
+cloze,The things filled the other thing.,fill,fill.01,concrete,0.332853,0.0126389,0.744358
+cloze,The things filled the other thing.,fill,fill.06,abstract,0.347893,0.101106,0.885009
+cloze,The things shattered the other thing.,shatter,shatter.01,abstract,0.803292,0.131874,0.998745
+cloze,The things shattered the other thing.,shatter,shatter.01,concrete,0.196708,0.0012553900000000001,0.868126
+cloze,The traveler hit the delay.,hit,hit.01,abstract,0,0,0
+cloze,The traveler hit the delay.,hit,hit.01,concrete,0,0,0
+cloze,The traveler hit the delay.,hit,hit.02,abstract,1,1,1
+cloze,The traveler hit the delay.,hit,hit.02,concrete,0,0,0
+cloze,The traveler investigated the map.,investigate,investigate.01,abstract,1,1,1
+cloze,The traveler killed the afternoon.,kill,kill.01,abstract,0,0,0
+cloze,The traveler killed the afternoon.,kill,kill.01,concrete,0,0,0
+cloze,The traveler killed the afternoon.,kill,kill.03,abstract,0,0,0
+cloze,The traveler killed the afternoon.,kill,kill.04,abstract,1,1,1
+cloze,The waiter bumped the table.,bump,bump.01,concrete,0,0,0
+cloze,The waiter bumped the table.,bump,bump.02,abstract,0,0,0
+cloze,The waiter bumped the table.,bump,bump.02,concrete,1,1,1
+cloze,The waiter cleared the table.,clear,clear.01,concrete,1,1,1
+cloze,The waiter cleared the table.,clear,clear.02,abstract,0,0,0
+cloze,The waiter cleared the table.,clear,clear.03,abstract,0,0,0
+cloze,The waiter filled the glass.,fill,fill.01,abstract,0,0,0
+cloze,The waiter filled the glass.,fill,fill.01,concrete,1,1,1
+cloze,The waiter filled the glass.,fill,fill.06,abstract,0,0,0
+cloze,The worker cleared the rubble.,clear,clear.01,concrete,1,1,1
+cloze,The worker cleared the rubble.,clear,clear.02,abstract,0,0,0
+cloze,The worker cleared the rubble.,clear,clear.03,abstract,0,0,0
+cloze,The worker pulled the lever.,pull,pull.01,concrete,1,1,1
+cloze,The worker pulled the lever.,pull,pull.06,abstract,0,0,0
+cloze,The worker pulled the lever.,pull,pull.09,abstract,0,0,0
+cloze,The writer combined the chapters.,combine,combine.01,abstract,1,1,1
+cloze,The writer combined the chapters.,combine,combine.01,concrete,0,0,0
+cloze,The writer covered the election.,cover,cover.01,abstract,0,0,0
+cloze,The writer covered the election.,cover,cover.02,concrete,0,0,0
+cloze,The writer covered the election.,cover,cover.03,abstract,1,1,1
+cloze,X broke Y.,break,break.01,concrete,0.972401,0.948953,0.988879
+cloze,X broke Y.,break,break.13,abstract,0.0237898,0.00882643,0.0461592
+cloze,X broke Y.,break,break.18,abstract,0.0038088,1.02514e-4,0.0141873
+cloze,X bumped Y.,bump,bump.01,concrete,0.838402,0.503215,0.994103
+cloze,X bumped Y.,bump,bump.02,abstract,0.0818264,0.00103436,0.335609
+cloze,X bumped Y.,bump,bump.02,concrete,0.0797714,0.0010074,0.325749
+cloze,X chipped Y.,chip,chip.01,abstract,0.486106,0.0259632,0.970509
+cloze,X chipped Y.,chip,chip.01,concrete,0.513894,0.0294908,0.974037
+cloze,X cleaned Y.,clean,clean.01,abstract,0.430191,0.00743451,0.971258
+cloze,X cleaned Y.,clean,clean.01,concrete,0.569809,0.0287417,0.992565
+cloze,X cleared Y.,clear,clear.01,concrete,0.650089,0.543489,0.749809
+cloze,X cleared Y.,clear,clear.02,abstract,0.262512,0.173278,0.362983
+cloze,X cleared Y.,clear,clear.03,abstract,0.0873994,0.0366845,0.156916
+cloze,X closed Y.,close,close.01,abstract,0.412152,0.0242022,0.880744
+cloze,X closed Y.,close,close.01,concrete,0.504776,0.0397705,0.893638
+cloze,X closed Y.,close,close.03,abstract,0.0830718,0.0516523,0.121345
+cloze,X combined Y.,combine,combine.01,abstract,0.544313,0.0385385,0.975689
+cloze,X combined Y.,combine,combine.01,concrete,0.455687,0.0243114,0.961462
+cloze,X concluded Y.,conclude,conclude.02,abstract,1,1,1
+cloze,X considered Y.,consider,consider.02,abstract,1,1,1
+cloze,X covered Y.,cover,cover.01,abstract,0.531436,0.477876,0.58576
+cloze,X covered Y.,cover,cover.02,concrete,0.31895,0.270772,0.370142
+cloze,X covered Y.,cover,cover.03,abstract,0.149614,0.113684,0.188055
+cloze,X debated Y.,debate,debate.01,abstract,1,1,1
+cloze,X decided Y.,decide,decide.01,abstract,1,1,1
+cloze,X destroyed Y.,destroy,destroy.01,abstract,0.401763,0.0104952,0.95348
+cloze,X destroyed Y.,destroy,destroy.01,concrete,0.598237,0.0465197,0.989505
+cloze,X discovered Y.,discover,discover.01,abstract,0.481649,0.0177532,0.974595
+cloze,X discovered Y.,discover,discover.01,concrete,0.518351,0.0254052,0.982247
+cloze,X emptied Y.,empty,empty.01,abstract,0.511407,0.0376808,0.971057
+cloze,X emptied Y.,empty,empty.01,concrete,0.488593,0.0289429,0.962319
+cloze,X filled Y.,fill,fill.01,abstract,0.458756,0.0353956,0.910505
+cloze,X filled Y.,fill,fill.01,concrete,0.484805,0.0333227,0.908951
+cloze,X filled Y.,fill,fill.06,abstract,0.0564396,0.0292645,0.0919978
+cloze,X folded Y.,fold,fold.01,concrete,0.209657,0.0332259,0.480601
+cloze,X folded Y.,fold,fold.03,concrete,0.424893,0.175772,0.69887
+cloze,X folded Y.,fold,fold.06,abstract,0.36545,0.136084,0.64322
+cloze,X fought Y.,fight,fight.01,abstract,0.481355,0.0241962,0.970606
+cloze,X fought Y.,fight,fight.01,concrete,0.518645,0.0293942,0.975804
+cloze,X hit Y.,hit,hit.01,abstract,0.205408,0.00544077,0.640044
+cloze,X hit Y.,hit,hit.01,concrete,0.527344,0.0905629,0.742114
+cloze,X hit Y.,hit,hit.02,abstract,0.125224,0.00571158,0.268386
+cloze,X hit Y.,hit,hit.02,concrete,0.142025,0.00805423,0.274268
+cloze,X investigated Y.,investigate,investigate.01,abstract,1,1,1
+cloze,X jabbed Y.,jab,jab.01,abstract,0.526381,0.0313075,0.974922
+cloze,X jabbed Y.,jab,jab.01,concrete,0.473619,0.0250783,0.968692
+cloze,X kicked Y.,kick,kick.01,concrete,1,1,1
+cloze,X killed Y.,kill,kill.01,abstract,0.410093,0.0522999,0.89368
+cloze,X killed Y.,kill,kill.01,concrete,0.587578,0.103399,0.945095
+cloze,X killed Y.,kill,kill.03,abstract,0.00115392,3.04964e-5,0.00423597
+cloze,X killed Y.,kill,kill.04,abstract,0.00117521,2.78334e-5,0.00437317
+cloze,X murdered Y.,murder,murder.01,abstract,0.46657,0.022034,0.965756
+cloze,X murdered Y.,murder,murder.01,concrete,0.53343,0.0342439,0.977966
+cloze,X opened Y.,open,open.01,concrete,0.836561,0.800696,0.868768
+cloze,X opened Y.,open,open.02,abstract,0.163439,0.131232,0.199304
+cloze,X pondered Y.,ponder,ponder.01,abstract,1,1,1
+cloze,X pounded Y.,pound,pound.02,abstract,0.406437,0.0178549,0.95368
+cloze,X pounded Y.,pound,pound.02,concrete,0.593563,0.0463195,0.982145
+cloze,X poured Y.,pour,pour.01,concrete,1,1,1
+cloze,X proved Y.,prove,prove.01,abstract,1,1,1
+cloze,X pulled Y.,pull,pull.01,concrete,0.941315,0.898892,0.972359
+cloze,X pulled Y.,pull,pull.06,abstract,0.0519146,0.0231477,0.0924792
+cloze,X pulled Y.,pull,pull.09,abstract,0.00677007,1.65154e-4,0.0245545
+cloze,X pushed Y.,push,push.01,concrete,0.836025,0.776505,0.887115
+cloze,X pushed Y.,push,push.04,abstract,0.140512,0.0935181,0.19687
+cloze,X pushed Y.,push,push.05,abstract,0.0234633,0.00638287,0.0510459
+cloze,X scrubbed Y.,scrub,scrub.01,abstract,0.459259,0.0613773,0.916208
+cloze,X scrubbed Y.,scrub,scrub.01,concrete,0.540741,0.0837917,0.938623
+cloze,X shattered Y.,shatter,shatter.01,abstract,0.518735,0.0255947,0.976411
+cloze,X shattered Y.,shatter,shatter.01,concrete,0.481265,0.0235894,0.974405
+cloze,X shook Y.,shake,shake.01,abstract,0.414306,0.0589911,0.895295
+cloze,X shook Y.,shake,shake.01,concrete,0.585694,0.104705,0.941009
+cloze,X shot Y.,shoot,shoot.01,concrete,0.226407,0.161012,0.299003
+cloze,X shot Y.,shoot,shoot.02,concrete,0.551606,0.470007,0.633194
+cloze,X shot Y.,shoot,shoot.03,abstract,0.221988,0.156182,0.293719
+cloze,X smeared Y.,smear,smear.01,concrete,0.506771,0.0946759,0.91669
+cloze,X smeared Y.,smear,smear.02,abstract,0.493229,0.0833104,0.905324
+cloze,X split Y.,split,split.01,abstract,0.48555,0.0304351,0.969953
+cloze,X split Y.,split,split.01,concrete,0.51445,0.0300466,0.969565
+cloze,X stabbed Y.,stab,stab.01,concrete,1,1,1
+cloze,X washed Y.,wash,wash.01,concrete,1,1,1
+cloze,X wiped Y.,wipe,wipe.01,abstract,0.429102,0.0116744,0.964242
+cloze,X wiped Y.,wipe,wipe.01,concrete,0.570898,0.0357583,0.988326
+proportion,The advertisement pulled the customers.,pull,pull.01,concrete,0,0,0
+proportion,The advertisement pulled the customers.,pull,pull.06,abstract,1,1,1
+proportion,The advertisement pulled the customers.,pull,pull.09,abstract,0,0,0
+proportion,The affair split the couple.,split,split.01,abstract,1,1,1
+proportion,The affair split the couple.,split,split.01,concrete,0,0,0
+proportion,The analyst cleaned the data.,clean,clean.01,abstract,1,1,1
+proportion,The analyst cleaned the data.,clean,clean.01,concrete,0,0,0
+proportion,The arrow hit the target.,hit,hit.01,abstract,0,0,0
+proportion,The arrow hit the target.,hit,hit.01,concrete,0,0,0
+proportion,The arrow hit the target.,hit,hit.02,abstract,0,0,0
+proportion,The arrow hit the target.,hit,hit.02,concrete,1,1,1
+proportion,The article smeared the celebrity.,smear,smear.01,concrete,0,0,0
+proportion,The article smeared the celebrity.,smear,smear.02,abstract,1,1,1
+proportion,The artist smeared the paint.,smear,smear.01,concrete,1,1,1
+proportion,The artist smeared the paint.,smear,smear.02,abstract,0,0,0
+proportion,The artwork pushed the boundaries.,push,push.01,concrete,0,0,0
+proportion,The artwork pushed the boundaries.,push,push.04,abstract,0,0,0
+proportion,The artwork pushed the boundaries.,push,push.05,abstract,1,1,1
+proportion,The athlete murdered the competition.,murder,murder.01,abstract,1,1,1
+proportion,The athlete murdered the competition.,murder,murder.01,concrete,0,0,0
+proportion,The athlete pushed the limit.,push,push.01,concrete,0,0,0
+proportion,The athlete pushed the limit.,push,push.04,abstract,0,0,0
+proportion,The athlete pushed the limit.,push,push.05,abstract,1,1,1
+proportion,The athlete shot the ball.,shoot,shoot.01,concrete,1,1,1
+proportion,The athlete shot the ball.,shoot,shoot.02,concrete,0,0,0
+proportion,The athlete shot the ball.,shoot,shoot.03,abstract,0,0,0
+proportion,The attacker stabbed the victim.,stab,stab.01,concrete,1,1,1
+proportion,The author closed the chapter.,close,close.01,abstract,1,1,1
+proportion,The author closed the chapter.,close,close.01,concrete,0,0,0
+proportion,The author closed the chapter.,close,close.03,abstract,0,0,0
+proportion,The baker closed the oven.,close,close.01,abstract,0,0,0
+proportion,The baker closed the oven.,close,close.01,concrete,1,1,1
+proportion,The baker closed the oven.,close,close.03,abstract,0,0,0
+proportion,The baker combined the ingredients.,combine,combine.01,abstract,0,0,0
+proportion,The baker combined the ingredients.,combine,combine.01,concrete,1,1,1
+proportion,The baker folded the flour.,fold,fold.01,concrete,1,1,1
+proportion,The baker folded the flour.,fold,fold.03,concrete,0,0,0
+proportion,The baker folded the flour.,fold,fold.06,abstract,0,0,0
+proportion,The baker smeared the frosting.,smear,smear.01,concrete,1,1,1
+proportion,The baker smeared the frosting.,smear,smear.02,abstract,0,0,0
+proportion,The baker split the dough.,split,split.01,abstract,0,0,0
+proportion,The baker split the dough.,split,split.01,concrete,1,1,1
+proportion,The ball bumped the couch.,bump,bump.01,concrete,1,1,1
+proportion,The ball bumped the couch.,bump,bump.02,abstract,0,0,0
+proportion,The ball bumped the couch.,bump,bump.02,concrete,0,0,0
+proportion,The barbarians destroyed the city.,destroy,destroy.01,abstract,0,0,0
+proportion,The barbarians destroyed the city.,destroy,destroy.01,concrete,1,1,1
+proportion,The bartender poured the wine.,pour,pour.01,concrete,1,1,1
+proportion,The bartender shook the martini.,shake,shake.01,abstract,0,0,0
+proportion,The bartender shook the martini.,shake,shake.01,concrete,1,1,1
+proportion,The batter hit the ball.,hit,hit.01,abstract,0,0,0
+proportion,The batter hit the ball.,hit,hit.01,concrete,1,1,1
+proportion,The batter hit the ball.,hit,hit.02,abstract,0,0,0
+proportion,The batter hit the ball.,hit,hit.02,concrete,0,0,0
+proportion,The bookkeeper cleared the payment.,clear,clear.01,concrete,0,0,0
+proportion,The bookkeeper cleared the payment.,clear,clear.02,abstract,1,1,1
+proportion,The bookkeeper cleared the payment.,clear,clear.03,abstract,0,0,0
+proportion,The boss destroyed the morale.,destroy,destroy.01,abstract,1,1,1
+proportion,The boss destroyed the morale.,destroy,destroy.01,concrete,0,0,0
+proportion,The burglar broke the window.,break,break.01,concrete,1,1,1
+proportion,The burglar broke the window.,break,break.13,abstract,0,0,0
+proportion,The burglar broke the window.,break,break.18,abstract,0,0,0
+proportion,The burglar discovered the key.,discover,discover.01,abstract,0,0,0
+proportion,The burglar discovered the key.,discover,discover.01,concrete,1,1,1
+proportion,The business killed the competition.,kill,kill.01,abstract,0,0,0
+proportion,The business killed the competition.,kill,kill.01,concrete,0,0,0
+proportion,The business killed the competition.,kill,kill.03,abstract,1,1,1
+proportion,The business killed the competition.,kill,kill.04,abstract,0,0,0
+proportion,The business pulled the service.,pull,pull.01,concrete,0,0,0
+proportion,The business pulled the service.,pull,pull.06,abstract,0,0,0
+proportion,The business pulled the service.,pull,pull.09,abstract,1,1,1
+proportion,The butler emptied the tub.,empty,empty.01,abstract,0,0,0
+proportion,The butler emptied the tub.,empty,empty.01,concrete,1,1,1
+proportion,The buyer emptied the account.,empty,empty.01,abstract,1,1,1
+proportion,The buyer emptied the account.,empty,empty.01,concrete,0,0,0
+proportion,The candidate jabbed the opponent.,jab,jab.01,abstract,1,1,1
+proportion,The candidate jabbed the opponent.,jab,jab.01,concrete,0,0,0
+proportion,The cat killed the mouse.,kill,kill.01,abstract,0,0,0
+proportion,The cat killed the mouse.,kill,kill.01,concrete,1,1,1
+proportion,The cat killed the mouse.,kill,kill.03,abstract,0,0,0
+proportion,The cat killed the mouse.,kill,kill.04,abstract,0,0,0
+proportion,The chairperson opened the meeting.,open,open.01,concrete,0,0,0
+proportion,The chairperson opened the meeting.,open,open.02,abstract,1,1,1
+proportion,The channel covered the story.,cover,cover.01,abstract,0,0,0
+proportion,The channel covered the story.,cover,cover.02,concrete,0,0,0
+proportion,The channel covered the story.,cover,cover.03,abstract,1,1,1
+proportion,The chauffeur closed the door.,close,close.01,abstract,0,0,0
+proportion,The chauffeur closed the door.,close,close.01,concrete,1,1,1
+proportion,The chauffeur closed the door.,close,close.03,abstract,0,0,0
+proportion,The chef folded the eggs.,fold,fold.01,concrete,1,1,1
+proportion,The chef folded the eggs.,fold,fold.03,concrete,0,0,0
+proportion,The chef folded the eggs.,fold,fold.06,abstract,0,0,0
+proportion,The chef stabbed the potato.,stab,stab.01,concrete,1,1,1
+proportion,The child chipped the teacup.,chip,chip.01,abstract,0,0,0
+proportion,The child chipped the teacup.,chip,chip.01,concrete,1,1,1
+proportion,The child destroyed the sandcastle.,destroy,destroy.01,abstract,0,0,0
+proportion,The child destroyed the sandcastle.,destroy,destroy.01,concrete,1,1,1
+proportion,The child folded the paper.,fold,fold.01,concrete,0,0,0
+proportion,The child folded the paper.,fold,fold.03,concrete,1,1,1
+proportion,The child folded the paper.,fold,fold.06,abstract,0,0,0
+proportion,The child hit the pillow.,hit,hit.01,abstract,0,0,0
+proportion,The child hit the pillow.,hit,hit.01,concrete,1,1,1
+proportion,The child hit the pillow.,hit,hit.02,abstract,0,0,0
+proportion,The child hit the pillow.,hit,hit.02,concrete,0,0,0
+proportion,The cleaner folded the clothes.,fold,fold.01,concrete,0,0,0
+proportion,The cleaner folded the clothes.,fold,fold.03,concrete,1,1,1
+proportion,The cleaner folded the clothes.,fold,fold.06,abstract,0,0,0
+proportion,The cleaner wiped the table.,wipe,wipe.01,abstract,0,0,0
+proportion,The cleaner wiped the table.,wipe,wipe.01,concrete,1,1,1
+proportion,The climber pulled the rope.,pull,pull.01,concrete,1,1,1
+proportion,The climber pulled the rope.,pull,pull.06,abstract,0,0,0
+proportion,The climber pulled the rope.,pull,pull.09,abstract,0,0,0
+proportion,The committee decided the outcome.,decide,decide.01,abstract,1,1,1
+proportion,The company broke the law.,break,break.01,concrete,0,0,0
+proportion,The company broke the law.,break,break.13,abstract,0,0,0
+proportion,The company broke the law.,break,break.18,abstract,1,1,1
+proportion,The company murdered the startup.,murder,murder.01,abstract,1,1,1
+proportion,The company murdered the startup.,murder,murder.01,concrete,0,0,0
+proportion,The company pushed the product.,push,push.01,concrete,0,0,0
+proportion,The company pushed the product.,push,push.04,abstract,1,1,1
+proportion,The company pushed the product.,push,push.05,abstract,0,0,0
+proportion,The company scrubbed the records.,scrub,scrub.01,abstract,1,1,1
+proportion,The company scrubbed the records.,scrub,scrub.01,concrete,0,0,0
+proportion,The consultant opened the discussion.,open,open.01,concrete,0,0,0
+proportion,The consultant opened the discussion.,open,open.02,abstract,1,1,1
+proportion,The controversy split the community.,split,split.01,abstract,1,1,1
+proportion,The controversy split the community.,split,split.01,concrete,0,0,0
+proportion,The cook scrubbed the pot.,scrub,scrub.01,abstract,0,0,0
+proportion,The cook scrubbed the pot.,scrub,scrub.01,concrete,1,1,1
+proportion,The cook washed the plate.,wash,wash.01,concrete,1,1,1
+proportion,The couple killed the evening.,kill,kill.01,abstract,0,0,0
+proportion,The couple killed the evening.,kill,kill.01,concrete,0,0,0
+proportion,The couple killed the evening.,kill,kill.03,abstract,0,0,0
+proportion,The couple killed the evening.,kill,kill.04,abstract,1,1,1
+proportion,The criminal killed the victim.,kill,kill.01,abstract,0,0,0
+proportion,The criminal killed the victim.,kill,kill.01,concrete,1,1,1
+proportion,The criminal killed the victim.,kill,kill.03,abstract,0,0,0
+proportion,The criminal killed the victim.,kill,kill.04,abstract,0,0,0
+proportion,The customer chipped the figurine.,chip,chip.01,abstract,0,0,0
+proportion,The customer chipped the figurine.,chip,chip.01,concrete,1,1,1
+proportion,The dad washed the car.,wash,wash.01,concrete,1,1,1
+proportion,The dean bumped the meeting.,bump,bump.01,concrete,0,0,0
+proportion,The dean bumped the meeting.,bump,bump.02,abstract,1,1,1
+proportion,The dean bumped the meeting.,bump,bump.02,concrete,0,0,0
+proportion,The defendant fought the charges.,fight,fight.01,abstract,1,1,1
+proportion,The defendant fought the charges.,fight,fight.01,concrete,0,0,0
+proportion,The detective investigated the footprints.,investigate,investigate.01,abstract,1,1,1
+proportion,The director shot the scene.,shoot,shoot.01,concrete,0,0,0
+proportion,The director shot the scene.,shoot,shoot.02,concrete,0,0,0
+proportion,The director shot the scene.,shoot,shoot.03,abstract,1,1,1
+proportion,The doctor broke the news.,break,break.01,concrete,0,0,0
+proportion,The doctor broke the news.,break,break.13,abstract,1,1,1
+proportion,The doctor broke the news.,break,break.18,abstract,0,0,0
+proportion,The doctor discovered the cure.,discover,discover.01,abstract,1,1,1
+proportion,The doctor discovered the cure.,discover,discover.01,concrete,0,0,0
+proportion,The doctor jabbed the patient.,jab,jab.01,abstract,0,0,0
+proportion,The doctor jabbed the patient.,jab,jab.01,concrete,1,1,1
+proportion,The donations filled the need.,fill,fill.01,abstract,0,0,0
+proportion,The donations filled the need.,fill,fill.01,concrete,0,0,0
+proportion,The donations filled the need.,fill,fill.06,abstract,1,1,1
+proportion,The driver bumped the curb.,bump,bump.01,concrete,1,1,1
+proportion,The driver bumped the curb.,bump,bump.02,abstract,0,0,0
+proportion,The driver bumped the curb.,bump,bump.02,concrete,0,0,0
+proportion,The editor cleaned the manuscript.,clean,clean.01,abstract,1,1,1
+proportion,The editor cleaned the manuscript.,clean,clean.01,concrete,0,0,0
+proportion,The employee considered the feedback.,consider,consider.02,abstract,1,1,1
+proportion,The engineer wiped the data.,wipe,wipe.01,abstract,1,1,1
+proportion,The engineer wiped the data.,wipe,wipe.01,concrete,0,0,0
+proportion,The event filled the time.,fill,fill.01,abstract,0.733357,0.103562,0.996247
+proportion,The event filled the time.,fill,fill.01,concrete,0.248794,0.00221541,0.850481
+proportion,The event filled the time.,fill,fill.06,abstract,0.0178481,7.15621e-4,0.0566167
+proportion,The event shook the organization.,shake,shake.01,abstract,0.846352,0.402736,0.994732
+proportion,The event shook the organization.,shake,shake.01,concrete,0.153648,0.00526765,0.597264
+proportion,The executive closed the deal.,close,close.01,abstract,0,0,0
+proportion,The executive closed the deal.,close,close.01,concrete,0,0,0
+proportion,The executive closed the deal.,close,close.03,abstract,1,1,1
+proportion,The expenses chipped the savings.,chip,chip.01,abstract,1,1,1
+proportion,The expenses chipped the savings.,chip,chip.01,concrete,0,0,0
+proportion,The explorer discovered the island.,discover,discover.01,abstract,0,0,0
+proportion,The explorer discovered the island.,discover,discover.01,concrete,1,1,1
+proportion,The farmer filled the bucket.,fill,fill.01,abstract,0,0,0
+proportion,The farmer filled the bucket.,fill,fill.01,concrete,1,1,1
+proportion,The farmer filled the bucket.,fill,fill.06,abstract,0,0,0
+proportion,The farmer opened the gate.,open,open.01,concrete,1,1,1
+proportion,The farmer opened the gate.,open,open.02,abstract,0,0,0
+proportion,The festival filled the weekend.,fill,fill.01,abstract,1,1,1
+proportion,The festival filled the weekend.,fill,fill.01,concrete,0,0,0
+proportion,The festival filled the weekend.,fill,fill.06,abstract,0,0,0
+proportion,The founder folded the company.,fold,fold.01,concrete,0,0,0
+proportion,The founder folded the company.,fold,fold.03,concrete,0,0,0
+proportion,The founder folded the company.,fold,fold.06,abstract,1,1,1
+proportion,The gardener bumped the statue.,bump,bump.01,concrete,0,0,0
+proportion,The gardener bumped the statue.,bump,bump.02,abstract,0,0,0
+proportion,The gardener bumped the statue.,bump,bump.02,concrete,1,1,1
+proportion,The gardener shook the tree.,shake,shake.01,abstract,0,0,0
+proportion,The gardener shook the tree.,shake,shake.01,concrete,1,1,1
+proportion,The giraffe fought the lion.,fight,fight.01,abstract,0,0,0
+proportion,The giraffe fought the lion.,fight,fight.01,concrete,1,1,1
+proportion,The guest broke the plate.,break,break.01,concrete,1,1,1
+proportion,The guest broke the plate.,break,break.13,abstract,0,0,0
+proportion,The guest broke the plate.,break,break.18,abstract,0,0,0
+proportion,The hiker cleared the obstacle.,clear,clear.01,concrete,0,0,0
+proportion,The hiker cleared the obstacle.,clear,clear.02,abstract,0,0,0
+proportion,The hiker cleared the obstacle.,clear,clear.03,abstract,1,1,1
+proportion,The horse cleared the jump.,clear,clear.01,concrete,0,0,0
+proportion,The horse cleared the jump.,clear,clear.02,abstract,0,0,0
+proportion,The horse cleared the jump.,clear,clear.03,abstract,1,1,1
+proportion,The horse kicked the stool.,kick,kick.01,concrete,1,1,1
+proportion,The hostess poured the tea.,pour,pour.01,concrete,1,1,1
+proportion,The housekeeper cleaned the kitchen.,clean,clean.01,abstract,0,0,0
+proportion,The housekeeper cleaned the kitchen.,clean,clean.01,concrete,1,1,1
+proportion,The hunter shot the deer.,shoot,shoot.01,concrete,0,0,0
+proportion,The hunter shot the deer.,shoot,shoot.02,concrete,1,1,1
+proportion,The hunter shot the deer.,shoot,shoot.03,abstract,0,0,0
+proportion,The hurricane hit the coastline.,hit,hit.01,abstract,0,0,0
+proportion,The hurricane hit the coastline.,hit,hit.01,concrete,0,0,0
+proportion,The hurricane hit the coastline.,hit,hit.02,abstract,0,0,0
+proportion,The hurricane hit the coastline.,hit,hit.02,concrete,1,1,1
+proportion,The husband murdered the heiress.,murder,murder.01,abstract,0,0,0
+proportion,The husband murdered the heiress.,murder,murder.01,concrete,1,1,1
+proportion,The husband pondered the relationship.,ponder,ponder.01,abstract,1,1,1
+proportion,The idea hit the researcher.,hit,hit.01,abstract,1,1,1
+proportion,The idea hit the researcher.,hit,hit.01,concrete,0,0,0
+proportion,The idea hit the researcher.,hit,hit.02,abstract,0,0,0
+proportion,The idea hit the researcher.,hit,hit.02,concrete,0,0,0
+proportion,The inconsistency shattered the case.,shatter,shatter.01,abstract,1,1,1
+proportion,The inconsistency shattered the case.,shatter,shatter.01,concrete,0,0,0
+proportion,The insurance covered the damage.,cover,cover.01,abstract,1,1,1
+proportion,The insurance covered the damage.,cover,cover.02,concrete,0,0,0
+proportion,The insurance covered the damage.,cover,cover.03,abstract,0,0,0
+proportion,The investor hit the goal.,hit,hit.01,abstract,0,0,0
+proportion,The investor hit the goal.,hit,hit.01,concrete,0,0,0
+proportion,The investor hit the goal.,hit,hit.02,abstract,1,1,1
+proportion,The investor hit the goal.,hit,hit.02,concrete,0,0,0
+proportion,The janitor cleaned the bathroom.,clean,clean.01,abstract,0,0,0
+proportion,The janitor cleaned the bathroom.,clean,clean.01,concrete,1,1,1
+proportion,The janitor scrubbed the floor.,scrub,scrub.01,abstract,0,0,0
+proportion,The janitor scrubbed the floor.,scrub,scrub.01,concrete,1,1,1
+proportion,The joke killed the evening.,kill,kill.01,abstract,1,1,1
+proportion,The joke killed the evening.,kill,kill.01,concrete,0,0,0
+proportion,The joke killed the evening.,kill,kill.03,abstract,0,0,0
+proportion,The joke killed the evening.,kill,kill.04,abstract,0,0,0
+proportion,The journalist broke the story.,break,break.01,concrete,0,0,0
+proportion,The journalist broke the story.,break,break.13,abstract,1,1,1
+proportion,The journalist broke the story.,break,break.18,abstract,0,0,0
+proportion,The journalist smeared the business.,smear,smear.01,concrete,0,0,0
+proportion,The journalist smeared the business.,smear,smear.02,abstract,1,1,1
+proportion,The judge decided the case.,decide,decide.01,abstract,1,1,1
+proportion,The jury debated the case.,debate,debate.01,abstract,1,1,1
+proportion,The lawyer closed the case.,close,close.01,abstract,0,0,0
+proportion,The lawyer closed the case.,close,close.01,concrete,0,0,0
+proportion,The lawyer closed the case.,close,close.03,abstract,1,1,1
+proportion,The lawyer pounded the evidence.,pound,pound.02,abstract,1,1,1
+proportion,The lawyer pounded the evidence.,pound,pound.02,concrete,0,0,0
+proportion,The lawyer proved the case.,prove,prove.01,abstract,1,1,1
+proportion,The lies shattered the trust.,shatter,shatter.01,abstract,1,1,1
+proportion,The lies shattered the trust.,shatter,shatter.01,concrete,0,0,0
+proportion,The love filled the void.,fill,fill.01,abstract,0,0,0
+proportion,The love filled the void.,fill,fill.01,concrete,0,0,0
+proportion,The love filled the void.,fill,fill.06,abstract,1,1,1
+proportion,The lumberjack split the log.,split,split.01,abstract,0,0,0
+proportion,The lumberjack split the log.,split,split.01,concrete,1,1,1
+proportion,The manager folded the project.,fold,fold.01,concrete,0,0,0
+proportion,The manager folded the project.,fold,fold.03,concrete,0,0,0
+proportion,The manager folded the project.,fold,fold.06,abstract,1,1,1
+proportion,The mathematician proved the theorem.,prove,prove.01,abstract,1,1,1
+proportion,The mistake killed the proposal.,kill,kill.01,abstract,1,1,1
+proportion,The mistake killed the proposal.,kill,kill.01,concrete,0,0,0
+proportion,The mistake killed the proposal.,kill,kill.03,abstract,0,0,0
+proportion,The mistake killed the proposal.,kill,kill.04,abstract,0,0,0
+proportion,The mobster murdered the rival.,murder,murder.01,abstract,0,0,0
+proportion,The mobster murdered the rival.,murder,murder.01,concrete,1,1,1
+proportion,The murder shook the town.,shake,shake.01,abstract,1,1,1
+proportion,The murder shook the town.,shake,shake.01,concrete,0,0,0
+proportion,The musician pounded the drum.,pound,pound.02,abstract,0,0,0
+proportion,The musician pounded the drum.,pound,pound.02,concrete,1,1,1
+proportion,The negativity chipped the morale.,chip,chip.01,abstract,1,1,1
+proportion,The negativity chipped the morale.,chip,chip.01,concrete,0,0,0
+proportion,The news shook the family.,shake,shake.01,abstract,1,1,1
+proportion,The news shook the family.,shake,shake.01,concrete,0,0,0
+proportion,The nurse covered the wound.,cover,cover.01,abstract,0,0,0
+proportion,The nurse covered the wound.,cover,cover.02,concrete,1,1,1
+proportion,The nurse covered the wound.,cover,cover.03,abstract,0,0,0
+proportion,The officer cleared the request.,clear,clear.01,concrete,0,0,0
+proportion,The officer cleared the request.,clear,clear.02,abstract,1,1,1
+proportion,The officer cleared the request.,clear,clear.03,abstract,0,0,0
+proportion,The organization broke the thing.,break,break.01,concrete,0.902223,0.567659,0.982291
+proportion,The organization broke the thing.,break,break.13,abstract,0.0222552,0.00730201,0.0443772
+proportion,The organization broke the thing.,break,break.18,abstract,0.075522,7.45496e-4,0.415769
+proportion,The organization considered the thing.,consider,consider.02,abstract,1,1,1
+proportion,The organization covered the stuff.,cover,cover.01,abstract,0.926674,0.798675,0.99476
+proportion,The organization covered the stuff.,cover,cover.02,concrete,0.0499387,0.00358234,0.137905
+proportion,The organization covered the stuff.,cover,cover.03,abstract,0.0233877,0.00167967,0.0653707
+proportion,The organization covered the thing.,cover,cover.01,abstract,0.192699,0.0209461,0.391943
+proportion,The organization covered the thing.,cover,cover.02,concrete,0.115809,0.0124658,0.239235
+proportion,The organization covered the thing.,cover,cover.03,abstract,0.691492,0.372728,0.966196
+proportion,The organization decided the thing.,decide,decide.01,abstract,1,1,1
+proportion,The organization killed the other organization.,kill,kill.01,abstract,0.514034,0.107195,0.858092
+proportion,The organization killed the other organization.,kill,kill.01,concrete,0.454895,0.112599,0.865813
+proportion,The organization killed the other organization.,kill,kill.03,abstract,0.0299374,3.05719e-4,0.191453
+proportion,The organization killed the other organization.,kill,kill.04,abstract,0.00113344,2.51252e-5,0.0041337
+proportion,The organization killed the people.,kill,kill.01,abstract,0.514034,0.107195,0.858092
+proportion,The organization killed the people.,kill,kill.01,concrete,0.454895,0.112599,0.865813
+proportion,The organization killed the people.,kill,kill.03,abstract,0.0299374,3.05719e-4,0.191453
+proportion,The organization killed the people.,kill,kill.04,abstract,0.00113344,2.51252e-5,0.0041337
+proportion,The organization murdered the other organization.,murder,murder.01,abstract,0.844028,0.207468,0.998753
+proportion,The organization murdered the other organization.,murder,murder.01,concrete,0.155972,0.00124729,0.792532
+proportion,The organization pulled the thing.,pull,pull.01,concrete,0.83444,0.412176,0.959777
+proportion,The organization pulled the thing.,pull,pull.06,abstract,0.0464191,0.0160071,0.0866862
+proportion,The organization pulled the thing.,pull,pull.09,abstract,0.11914,0.00197594,0.566758
+proportion,The organization pushed the thing.,push,push.01,concrete,0.314864,0.0350141,0.636785
+proportion,The organization pushed the thing.,push,push.04,abstract,0.676318,0.346266,0.964172
+proportion,The organization pushed the thing.,push,push.05,abstract,0.00881834,6.79179e-4,0.0256022
+proportion,The organization scrubbed the thing.,scrub,scrub.01,abstract,0.83579,0.387757,0.99521
+proportion,The organization scrubbed the thing.,scrub,scrub.01,concrete,0.16421,0.00479011,0.612243
+proportion,The organization scrubbed the things.,scrub,scrub.01,abstract,0.83579,0.387757,0.99521
+proportion,The organization scrubbed the things.,scrub,scrub.01,concrete,0.16421,0.00479011,0.612243
+proportion,The painter combined the colors.,combine,combine.01,abstract,0,0,0
+proportion,The painter combined the colors.,combine,combine.01,concrete,1,1,1
+proportion,The patient fought the illness.,fight,fight.01,abstract,1,1,1
+proportion,The patient fought the illness.,fight,fight.01,concrete,0,0,0
+proportion,The people debated the thing.,debate,debate.01,abstract,1,1,1
+proportion,The people destroyed the place.,destroy,destroy.01,abstract,0.0592582,1.25962e-4,0.413738
+proportion,The people destroyed the place.,destroy,destroy.01,concrete,0.940742,0.586262,0.999874
+proportion,The people destroyed the stuff.,destroy,destroy.01,abstract,0.675048,0.0329381,0.996732
+proportion,The people destroyed the stuff.,destroy,destroy.01,concrete,0.324952,0.00326763,0.967062
+proportion,The people killed the time.,kill,kill.01,abstract,0.514843,0.105877,0.853528
+proportion,The people killed the time.,kill,kill.01,concrete,0.455729,0.11447,0.86461
+proportion,The people killed the time.,kill,kill.03,abstract,0.00114415,2.76531e-5,0.00422393
+proportion,The people killed the time.,kill,kill.04,abstract,0.0282839,2.99351e-4,0.175044
+proportion,The people pulled the thing.,pull,pull.01,concrete,0.83444,0.412176,0.959777
+proportion,The people pulled the thing.,pull,pull.06,abstract,0.0464191,0.0160071,0.0866862
+proportion,The people pulled the thing.,pull,pull.09,abstract,0.11914,0.00197594,0.566758
+proportion,The person broke the thing.,break,break.01,concrete,0.972164,0.948504,0.988612
+proportion,The person broke the thing.,break,break.13,abstract,0.0239655,0.00887741,0.0465536
+proportion,The person broke the thing.,break,break.18,abstract,0.0038705,8.40429e-5,0.0144392
+proportion,The person bumped the thing.,bump,bump.01,concrete,0.852073,0.533788,0.994126
+proportion,The person bumped the thing.,bump,bump.02,abstract,0.0690934,9.95206e-4,0.280273
+proportion,The person bumped the thing.,bump,bump.02,concrete,0.0788334,9.57002e-4,0.326997
+proportion,The person chipped the thing.,chip,chip.01,abstract,0.182718,7.96201e-4,0.861383
+proportion,The person chipped the thing.,chip,chip.01,concrete,0.817282,0.138617,0.999204
+proportion,The person cleaned the place.,clean,clean.01,abstract,0.105796,1.37696e-4,0.723373
+proportion,The person cleaned the place.,clean,clean.01,concrete,0.894204,0.276627,0.999862
+proportion,The person cleaned the stuff.,clean,clean.01,abstract,0.739205,0.0402894,0.998655
+proportion,The person cleaned the stuff.,clean,clean.01,concrete,0.260795,0.0013449,0.959711
+proportion,The person cleaned the thing.,clean,clean.01,abstract,0.739205,0.0402894,0.998655
+proportion,The person cleaned the thing.,clean,clean.01,concrete,0.260795,0.0013449,0.959711
+proportion,The person cleared the place.,clear,clear.01,concrete,0.95236,0.858233,0.996788
+proportion,The person cleared the place.,clear,clear.02,abstract,0.0354466,0.00229655,0.10814
+proportion,The person cleared the place.,clear,clear.03,abstract,0.0121935,7.07769e-4,0.0404112
+proportion,The person cleared the stuff.,clear,clear.01,concrete,0.95236,0.858233,0.996788
+proportion,The person cleared the stuff.,clear,clear.02,abstract,0.0354466,0.00229655,0.10814
+proportion,The person cleared the stuff.,clear,clear.03,abstract,0.0121935,7.07769e-4,0.0404112
+proportion,The person cleared the thing.,clear,clear.01,concrete,0.139739,0.0104395,0.360241
+proportion,The person cleared the thing.,clear,clear.02,abstract,0.640338,0.434684,0.820256
+proportion,The person cleared the thing.,clear,clear.03,abstract,0.219923,0.0964789,0.380585
+proportion,The person closed the thing.,close,close.01,abstract,0.342664,0.0167486,0.833109
+proportion,The person closed the thing.,close,close.01,concrete,0.574682,0.0841751,0.903602
+proportion,The person closed the thing.,close,close.03,abstract,0.0826531,0.0506274,0.121315
+proportion,The person combined the organizations.,combine,combine.01,abstract,0.871867,0.402915,0.998445
+proportion,The person combined the organizations.,combine,combine.01,concrete,0.128133,0.0015554,0.597085
+proportion,The person combined the things.,combine,combine.01,abstract,0.491632,0.0579338,0.963521
+proportion,The person combined the things.,combine,combine.01,concrete,0.508368,0.0364791,0.942066
+proportion,The person concluded the thing.,conclude,conclude.02,abstract,1,1,1
+proportion,The person considered the stuff.,consider,consider.02,abstract,1,1,1
+proportion,The person covered the thing.,cover,cover.01,abstract,0.0914094,0.00693757,0.243862
+proportion,The person covered the thing.,cover,cover.02,concrete,0.618745,0.500077,0.715778
+proportion,The person covered the thing.,cover,cover.03,abstract,0.289845,0.213779,0.369828
+proportion,The person decided the thing.,decide,decide.01,abstract,1,1,1
+proportion,The person destroyed the thing.,destroy,destroy.01,abstract,0.287317,0.0030802,0.896199
+proportion,The person destroyed the thing.,destroy,destroy.01,concrete,0.712683,0.103801,0.99692
+proportion,The person discovered the place.,discover,discover.01,abstract,0.138686,0.00102729,0.67544
+proportion,The person discovered the place.,discover,discover.01,concrete,0.861314,0.32456,0.998973
+proportion,The person discovered the thing.,discover,discover.01,abstract,0.514271,0.0253415,0.960475
+proportion,The person discovered the thing.,discover,discover.01,concrete,0.485729,0.0395252,0.974658
+proportion,The person emptied the place.,empty,empty.01,abstract,0.839723,0.212761,0.998837
+proportion,The person emptied the place.,empty,empty.01,concrete,0.160277,0.00116345,0.787239
+proportion,The person emptied the thing.,empty,empty.01,abstract,0.478808,0.0249412,0.963742
+proportion,The person emptied the thing.,empty,empty.01,concrete,0.521192,0.0362576,0.975059
+proportion,The person filled the thing.,fill,fill.01,abstract,0.340673,0.0122627,0.910907
+proportion,The person filled the thing.,fill,fill.01,concrete,0.653908,0.0861364,0.982325
+proportion,The person filled the thing.,fill,fill.06,abstract,0.00541813,3.19791e-4,0.017418
+proportion,The person folded the organization.,fold,fold.01,concrete,0.0464745,0.00180042,0.175127
+proportion,The person folded the organization.,fold,fold.03,concrete,0.1028,0.00632328,0.325456
+proportion,The person folded the organization.,fold,fold.06,abstract,0.850726,0.560542,0.990496
+proportion,The person folded the stuff.,fold,fold.01,concrete,0.294161,0.056786,0.629112
+proportion,The person folded the stuff.,fold,fold.03,concrete,0.65259,0.317146,0.90471
+proportion,The person folded the stuff.,fold,fold.06,abstract,0.0532493,0.00231564,0.193882
+proportion,The person folded the thing.,fold,fold.01,concrete,0.0464745,0.00180042,0.175127
+proportion,The person folded the thing.,fold,fold.03,concrete,0.1028,0.00632328,0.325456
+proportion,The person folded the thing.,fold,fold.06,abstract,0.850726,0.560542,0.990496
+proportion,The person folded the things.,fold,fold.01,concrete,0.294161,0.056786,0.629112
+proportion,The person folded the things.,fold,fold.03,concrete,0.65259,0.317146,0.90471
+proportion,The person folded the things.,fold,fold.06,abstract,0.0532493,0.00231564,0.193882
+proportion,The person fought the other person.,fight,fight.01,abstract,0.147769,8.29238e-4,0.762818
+proportion,The person fought the other person.,fight,fight.01,concrete,0.852231,0.237182,0.999171
+proportion,The person fought the thing.,fight,fight.01,abstract,0.841109,0.177303,0.998998
+proportion,The person fought the thing.,fight,fight.01,concrete,0.158891,0.00100198,0.822697
+proportion,The person fought the things.,fight,fight.01,abstract,0.841109,0.177303,0.998998
+proportion,The person fought the things.,fight,fight.01,concrete,0.158891,0.00100198,0.822697
+proportion,The person hit the thing.,hit,hit.01,abstract,0.035106,5.2419e-5,0.21676
+proportion,The person hit the thing.,hit,hit.01,concrete,0.739245,0.340508,0.952215
+proportion,The person hit the thing.,hit,hit.02,abstract,0.207116,0.0126601,0.496483
+proportion,The person hit the thing.,hit,hit.02,concrete,0.0185332,2.28693e-4,0.0848885
+proportion,The person investigated the thing.,investigate,investigate.01,abstract,1,1,1
+proportion,The person investigated the things.,investigate,investigate.01,abstract,1,1,1
+proportion,The person jabbed the other person.,jab,jab.01,abstract,0.566872,0.0533814,0.978933
+proportion,The person jabbed the other person.,jab,jab.01,concrete,0.433128,0.0210672,0.946619
+proportion,The person jabbed the thing.,jab,jab.01,abstract,0.566872,0.0533814,0.978933
+proportion,The person jabbed the thing.,jab,jab.01,concrete,0.433128,0.0210672,0.946619
+proportion,The person kicked the thing.,kick,kick.01,concrete,1,1,1
+proportion,The person killed the other person.,kill,kill.01,abstract,0.113302,0.00356655,0.430082
+proportion,The person killed the other person.,kill,kill.01,concrete,0.886251,0.567831,0.996394
+proportion,The person killed the other person.,kill,kill.03,abstract,2.22867e-4,2.27183e-6,0.00114167
+proportion,The person killed the other person.,kill,kill.04,abstract,2.24975e-4,2.02845e-6,0.00113814
+proportion,The person killed the time.,kill,kill.01,abstract,0.896173,0.522503,0.995858
+proportion,The person killed the time.,kill,kill.01,concrete,0.101219,0.00274916,0.47261
+proportion,The person killed the time.,kill,kill.03,abstract,2.10899e-4,1.79948e-6,0.00114201
+proportion,The person killed the time.,kill,kill.04,abstract,0.00239653,4.49798e-5,0.0102849
+proportion,The person murdered the other people.,murder,murder.01,abstract,0.844028,0.207468,0.998753
+proportion,The person murdered the other people.,murder,murder.01,concrete,0.155972,0.00124729,0.792532
+proportion,The person murdered the other person.,murder,murder.01,abstract,0.135773,8.29184e-4,0.698752
+proportion,The person murdered the other person.,murder,murder.01,concrete,0.864227,0.301248,0.999171
+proportion,The person opened the event.,open,open.01,concrete,0.287969,0.0310924,0.595974
+proportion,The person opened the event.,open,open.02,abstract,0.712031,0.404026,0.968908
+proportion,The person opened the thing.,open,open.01,concrete,0.982224,0.946911,0.998828
+proportion,The person opened the thing.,open,open.02,abstract,0.0177755,0.00117221,0.0530893
+proportion,The person pondered the thing.,ponder,ponder.01,abstract,1,1,1
+proportion,The person pounded the stuff.,pound,pound.02,abstract,0.800392,0.138454,0.997747
+proportion,The person pounded the stuff.,pound,pound.02,concrete,0.199608,0.00225279,0.861546
+proportion,The person pounded the thing.,pound,pound.02,abstract,0.411206,0.0132697,0.936731
+proportion,The person pounded the thing.,pound,pound.02,concrete,0.588794,0.0632693,0.98673
+proportion,The person poured the stuff.,pour,pour.01,concrete,1,1,1
+proportion,The person proved the thing.,prove,prove.01,abstract,1,1,1
+proportion,The person pulled the thing.,pull,pull.01,concrete,0.994116,0.979965,0.999668
+proportion,The person pulled the thing.,pull,pull.06,abstract,0.00518849,2.84445e-4,0.0181616
+proportion,The person pulled the thing.,pull,pull.09,abstract,6.95812e-4,7.19702e-6,0.0034437
+proportion,The person pushed the thing.,push,push.01,concrete,0.835783,0.778866,0.886653
+proportion,The person pushed the thing.,push,push.04,abstract,0.140831,0.0937161,0.194688
+proportion,The person pushed the thing.,push,push.05,abstract,0.0233863,0.00655049,0.0506577
+proportion,The person pushed the things.,push,push.01,concrete,0.615922,0.16956,0.825812
+proportion,The person pushed the things.,push,push.04,abstract,0.103876,0.0269769,0.168099
+proportion,The person pushed the things.,push,push.05,abstract,0.280202,0.046527,0.802109
+proportion,The person scrubbed the place.,scrub,scrub.01,abstract,0.0806,0.00128944,0.419004
+proportion,The person scrubbed the place.,scrub,scrub.01,concrete,0.9194,0.580996,0.998711
+proportion,The person scrubbed the thing.,scrub,scrub.01,abstract,0.0806,0.00128944,0.419004
+proportion,The person scrubbed the thing.,scrub,scrub.01,concrete,0.9194,0.580996,0.998711
+proportion,The person shattered the stuff.,shatter,shatter.01,abstract,0.17259,0.00133143,0.819658
+proportion,The person shattered the stuff.,shatter,shatter.01,concrete,0.82741,0.180342,0.998669
+proportion,The person shattered the thing.,shatter,shatter.01,abstract,0.17259,0.00133143,0.819658
+proportion,The person shattered the thing.,shatter,shatter.01,concrete,0.82741,0.180342,0.998669
+proportion,The person shook the thing.,shake,shake.01,abstract,0.0776318,0.0014682,0.369565
+proportion,The person shook the thing.,shake,shake.01,concrete,0.922368,0.630435,0.998532
+proportion,The person shot the event.,shoot,shoot.01,concrete,0.0655459,0.00584508,0.15834
+proportion,The person shot the event.,shoot,shoot.02,concrete,0.159834,0.0142839,0.36825
+proportion,The person shot the event.,shoot,shoot.03,abstract,0.77462,0.48529,0.979635
+proportion,The person shot the other person.,shoot,shoot.01,concrete,0.0345548,0.00239456,0.0995341
+proportion,The person shot the other person.,shoot,shoot.02,concrete,0.931452,0.809143,0.995083
+proportion,The person shot the other person.,shoot,shoot.03,abstract,0.0339928,0.00242003,0.09717
+proportion,The person shot the thing.,shoot,shoot.01,concrete,0.28368,0.20447100000000001,0.368705
+proportion,The person shot the thing.,shoot,shoot.02,concrete,0.690513,0.600963,0.774
+proportion,The person shot the thing.,shoot,shoot.03,abstract,0.025807,0.0017108100000000001,0.0776493
+proportion,The person shot the things.,shoot,shoot.01,concrete,0.77804,0.488571,0.979666
+proportion,The person shot the things.,shoot,shoot.02,concrete,0.158169,0.0143061,0.366779
+proportion,The person shot the things.,shoot,shoot.03,abstract,0.0637907,0.00560449,0.153347
+proportion,The person smeared the organization.,smear,smear.01,concrete,0.0983947,0.00244023,0.471761
+proportion,The person smeared the organization.,smear,smear.02,abstract,0.901605,0.528239,0.99756
+proportion,The person smeared the stuff.,smear,smear.01,concrete,0.875345,0.48707,0.996906
+proportion,The person smeared the stuff.,smear,smear.02,abstract,0.124655,0.00309355,0.51293
+proportion,The person split the thing.,split,split.01,abstract,0.139963,7.87808e-4,0.740635
+proportion,The person split the thing.,split,split.01,concrete,0.860037,0.259365,0.999212
+proportion,The person stabbed the other person.,stab,stab.01,concrete,1,1,1
+proportion,The person stabbed the thing.,stab,stab.01,concrete,1,1,1
+proportion,The person washed the thing.,wash,wash.01,concrete,1,1,1
+proportion,The person wiped the stuff.,wipe,wipe.01,abstract,0.792307,0.0752046,0.998825
+proportion,The person wiped the stuff.,wipe,wipe.01,concrete,0.207693,0.00117547,0.924795
+proportion,The person wiped the thing.,wipe,wipe.01,abstract,0.43241,0.00667029,0.96406
+proportion,The person wiped the thing.,wipe,wipe.01,concrete,0.56759,0.0359403,0.99333
+proportion,The photographer shot the wedding.,shoot,shoot.01,concrete,0,0,0
+proportion,The photographer shot the wedding.,shoot,shoot.02,concrete,0,0,0
+proportion,The photographer shot the wedding.,shoot,shoot.03,abstract,1,1,1
+proportion,The pilot pushed the button.,push,push.01,concrete,1,1,1
+proportion,The pilot pushed the button.,push,push.04,abstract,0,0,0
+proportion,The pilot pushed the button.,push,push.05,abstract,0,0,0
+proportion,The player kicked the ball.,kick,kick.01,concrete,1,1,1
+proportion,The policy covered the accident.,cover,cover.01,abstract,1,1,1
+proportion,The policy covered the accident.,cover,cover.02,concrete,0,0,0
+proportion,The policy covered the accident.,cover,cover.03,abstract,0,0,0
+proportion,The politician pushed the policy.,push,push.01,concrete,0,0,0
+proportion,The politician pushed the policy.,push,push.04,abstract,1,1,1
+proportion,The politician pushed the policy.,push,push.05,abstract,0,0,0
+proportion,The politicians debated the law.,debate,debate.01,abstract,1,1,1
+proportion,The potter pounded the clay.,pound,pound.02,abstract,0,0,0
+proportion,The potter pounded the clay.,pound,pound.02,concrete,1,1,1
+proportion,The presenter closed the speech.,close,close.01,abstract,1,1,1
+proportion,The presenter closed the speech.,close,close.01,concrete,0,0,0
+proportion,The presenter closed the speech.,close,close.03,abstract,0,0,0
+proportion,The president broke the promise.,break,break.01,concrete,0,0,0
+proportion,The president broke the promise.,break,break.13,abstract,0,0,0
+proportion,The president broke the promise.,break,break.18,abstract,1,1,1
+proportion,The programmer emptied the cache.,empty,empty.01,abstract,1,1,1
+proportion,The programmer emptied the cache.,empty,empty.01,concrete,0,0,0
+proportion,The prosecutor concluded the investigation.,conclude,conclude.02,abstract,1,1,1
+proportion,The publisher scrubbed the article.,scrub,scrub.01,abstract,1,1,1
+proportion,The publisher scrubbed the article.,scrub,scrub.01,concrete,0,0,0
+proportion,The pundit jabbed the mandate.,jab,jab.01,abstract,1,1,1
+proportion,The pundit jabbed the mandate.,jab,jab.01,concrete,0,0,0
+proportion,The regulators pulled the product.,pull,pull.01,concrete,0,0,0
+proportion,The regulators pulled the product.,pull,pull.06,abstract,0,0,0
+proportion,The regulators pulled the product.,pull,pull.09,abstract,1,1,1
+proportion,The researcher pondered the question.,ponder,ponder.01,abstract,1,1,1
+proportion,The reviewer destroyed the book.,destroy,destroy.01,abstract,1,1,1
+proportion,The reviewer destroyed the book.,destroy,destroy.01,concrete,0,0,0
+proportion,The rider jabbed the horse.,jab,jab.01,abstract,0,0,0
+proportion,The rider jabbed the horse.,jab,jab.01,concrete,1,1,1
+proportion,The robber shattered the window.,shatter,shatter.01,abstract,0,0,0
+proportion,The robber shattered the window.,shatter,shatter.01,concrete,1,1,1
+proportion,The robber shot the victim.,shoot,shoot.01,concrete,0,0,0
+proportion,The robber shot the victim.,shoot,shoot.02,concrete,1,1,1
+proportion,The robber shot the victim.,shoot,shoot.03,abstract,0,0,0
+proportion,The sailor emptied the bucket.,empty,empty.01,abstract,0,0,0
+proportion,The sailor emptied the bucket.,empty,empty.01,concrete,1,1,1
+proportion,The scandal pulled the reporters.,pull,pull.01,concrete,0,0,0
+proportion,The scandal pulled the reporters.,pull,pull.06,abstract,1,1,1
+proportion,The scandal pulled the reporters.,pull,pull.09,abstract,0,0,0
+proportion,The school considered the request.,consider,consider.02,abstract,1,1,1
+proportion,The secretary filled the schedule.,fill,fill.01,abstract,1,1,1
+proportion,The secretary filled the schedule.,fill,fill.01,concrete,0,0,0
+proportion,The secretary filled the schedule.,fill,fill.06,abstract,0,0,0
+proportion,The shopper pushed the cart.,push,push.01,concrete,1,1,1
+proportion,The shopper pushed the cart.,push,push.04,abstract,0,0,0
+proportion,The shopper pushed the cart.,push,push.05,abstract,0,0,0
+proportion,The singer shattered the glass.,shatter,shatter.01,abstract,0,0,0
+proportion,The singer shattered the glass.,shatter,shatter.01,concrete,1,1,1
+proportion,The snow covered the footprints.,cover,cover.01,abstract,0,0,0
+proportion,The snow covered the footprints.,cover,cover.02,concrete,1,1,1
+proportion,The snow covered the footprints.,cover,cover.03,abstract,0,0,0
+proportion,The soldiers fought the enemy.,fight,fight.01,abstract,0,0,0
+proportion,The soldiers fought the enemy.,fight,fight.01,concrete,1,1,1
+proportion,The solution hit the inventor.,hit,hit.01,abstract,1,1,1
+proportion,The solution hit the inventor.,hit,hit.01,concrete,0,0,0
+proportion,The solution hit the inventor.,hit,hit.02,abstract,0,0,0
+proportion,The solution hit the inventor.,hit,hit.02,concrete,0,0,0
+proportion,The speaker concluded the presentation.,conclude,conclude.02,abstract,1,1,1
+proportion,The speaker pounded the point.,pound,pound.02,abstract,1,1,1
+proportion,The speaker pounded the point.,pound,pound.02,concrete,0,0,0
+proportion,The student discovered the answer.,discover,discover.01,abstract,1,1,1
+proportion,The student discovered the answer.,discover,discover.01,concrete,0,0,0
+proportion,The stuff covered the things.,cover,cover.01,abstract,0.120496,0.0101074,0.296331
+proportion,The stuff covered the things.,cover,cover.02,concrete,0.845592,0.621147,0.987015
+proportion,The stuff covered the things.,cover,cover.03,abstract,0.0339117,0.00278479,0.0860423
+proportion,The teacher bumped the deadline.,bump,bump.01,concrete,0,0,0
+proportion,The teacher bumped the deadline.,bump,bump.02,abstract,1,1,1
+proportion,The teacher bumped the deadline.,bump,bump.02,concrete,0,0,0
+proportion,The teacher combined the classes.,combine,combine.01,abstract,1,1,1
+proportion,The teacher combined the classes.,combine,combine.01,concrete,0,0,0
+proportion,The teacher opened the window.,open,open.01,concrete,1,1,1
+proportion,The teacher opened the window.,open,open.02,abstract,0,0,0
+proportion,The teacher wiped the spill.,wipe,wipe.01,abstract,0,0,0
+proportion,The teacher wiped the spill.,wipe,wipe.01,concrete,1,1,1
+proportion,The team killed the rivals.,kill,kill.01,abstract,0,0,0
+proportion,The team killed the rivals.,kill,kill.01,concrete,0,0,0
+proportion,The team killed the rivals.,kill,kill.03,abstract,1,1,1
+proportion,The team killed the rivals.,kill,kill.04,abstract,0,0,0
+proportion,The technician shot the fireworks.,shoot,shoot.01,concrete,1,1,1
+proportion,The technician shot the fireworks.,shoot,shoot.02,concrete,0,0,0
+proportion,The technician shot the fireworks.,shoot,shoot.03,abstract,0,0,0
+proportion,The thief wiped the phone.,wipe,wipe.01,abstract,1,1,1
+proportion,The thief wiped the phone.,wipe,wipe.01,concrete,0,0,0
+proportion,The thing bumped the other thing.,bump,bump.01,concrete,0.98187,0.907542,0.999808
+proportion,The thing bumped the other thing.,bump,bump.02,abstract,0.00837012,3.65749e-5,0.047888
+proportion,The thing bumped the other thing.,bump,bump.02,concrete,0.00976037,3.87387e-5,0.0595282
+proportion,The thing chipped the stuff.,chip,chip.01,abstract,0.861285,0.239836,0.999397
+proportion,The thing chipped the stuff.,chip,chip.01,concrete,0.138715,6.03154e-4,0.760164
+proportion,The thing cleared the other thing.,clear,clear.01,concrete,0.311178,0.0385079,0.576328
+proportion,The thing cleared the other thing.,clear,clear.02,abstract,0.125491,0.0148945,0.257181
+proportion,The thing cleared the other thing.,clear,clear.03,abstract,0.563332,0.203999,0.945118
+proportion,The thing covered the other thing.,cover,cover.01,abstract,0.926674,0.798675,0.99476
+proportion,The thing covered the other thing.,cover,cover.02,concrete,0.0499387,0.00358234,0.137905
+proportion,The thing covered the other thing.,cover,cover.03,abstract,0.0233877,0.00167967,0.0653707
+proportion,The thing filled the place.,fill,fill.01,abstract,0.17518,0.00536141,0.565757
+proportion,The thing filled the place.,fill,fill.01,concrete,0.365761,0.0207325,0.762339
+proportion,The thing filled the place.,fill,fill.06,abstract,0.459059,0.14591,0.905904
+proportion,The thing fought the other thing.,fight,fight.01,abstract,0.147769,8.29238e-4,0.762818
+proportion,The thing fought the other thing.,fight,fight.01,concrete,0.852231,0.237182,0.999171
+proportion,The thing hit the other thing.,hit,hit.01,abstract,0.0906982,2.7364e-4,0.3936
+proportion,The thing hit the other thing.,hit,hit.01,concrete,0.253462,0.014610100000000001,0.633383
+proportion,The thing hit the other thing.,hit,hit.02,abstract,0.0803413,9.62943e-4,0.246932
+proportion,The thing hit the other thing.,hit,hit.02,concrete,0.575499,0.0572714,0.966306
+proportion,The thing hit the person.,hit,hit.01,abstract,0.603875,0.012565,0.984986
+proportion,The thing hit the person.,hit,hit.01,concrete,0.277782,0.0056783,0.727491
+proportion,The thing hit the person.,hit,hit.02,abstract,0.0643734,0.00110743,0.222038
+proportion,The thing hit the person.,hit,hit.02,concrete,0.0539699,7.88876e-4,0.202376
+proportion,The thing hit the place.,hit,hit.01,abstract,0.0906982,2.7364e-4,0.3936
+proportion,The thing hit the place.,hit,hit.01,concrete,0.253462,0.014610100000000001,0.633383
+proportion,The thing hit the place.,hit,hit.02,abstract,0.0803413,9.62943e-4,0.246932
+proportion,The thing hit the place.,hit,hit.02,concrete,0.575499,0.0572714,0.966306
+proportion,The thing kicked the other thing.,kick,kick.01,concrete,1,1,1
+proportion,The thing killed the other thing.,kill,kill.01,abstract,0.530463,0.114585,0.876629
+proportion,The thing killed the other thing.,kill,kill.01,concrete,0.469318,0.123212,0.885328
+proportion,The thing killed the other thing.,kill,kill.03,abstract,1.08854e-4,1.00103e-6,5.47905e-4
+proportion,The thing killed the other thing.,kill,kill.04,abstract,1.10121e-4,9.47264e-7,5.69506e-4
+proportion,The thing pulled the people.,pull,pull.01,concrete,0.551724,0.100648,0.864623
+proportion,The thing pulled the people.,pull,pull.06,abstract,0.444101,0.130016,0.898349
+proportion,The thing pulled the people.,pull,pull.09,abstract,0.00417428,7.98311e-5,0.016066
+proportion,The thing shattered the other thing.,shatter,shatter.01,abstract,0.874728,0.299435,0.999124
+proportion,The thing shattered the other thing.,shatter,shatter.01,concrete,0.125272,8.75791e-4,0.700565
+proportion,The thing shook the people.,shake,shake.01,abstract,0.846352,0.402736,0.994732
+proportion,The thing shook the people.,shake,shake.01,concrete,0.153648,0.00526765,0.597264
+proportion,The thing smeared the person.,smear,smear.01,concrete,0.0983947,0.00244023,0.471761
+proportion,The thing smeared the person.,smear,smear.02,abstract,0.901605,0.528239,0.99756
+proportion,The thing split the organization.,split,split.01,abstract,0.842912,0.186516,0.998763
+proportion,The thing split the organization.,split,split.01,concrete,0.157088,0.00123702,0.813484
+proportion,The thing split the people.,split,split.01,abstract,0.842912,0.186516,0.998763
+proportion,The thing split the people.,split,split.01,concrete,0.157088,0.00123702,0.813484
+proportion,The things chipped the other things.,chip,chip.01,abstract,0.861285,0.239836,0.999397
+proportion,The things chipped the other things.,chip,chip.01,concrete,0.138715,6.03154e-4,0.760164
+proportion,The things filled the other thing.,fill,fill.01,abstract,0.17518,0.00536141,0.565757
+proportion,The things filled the other thing.,fill,fill.01,concrete,0.365761,0.0207325,0.762339
+proportion,The things filled the other thing.,fill,fill.06,abstract,0.459059,0.14591,0.905904
+proportion,The things shattered the other thing.,shatter,shatter.01,abstract,0.874728,0.299435,0.999124
+proportion,The things shattered the other thing.,shatter,shatter.01,concrete,0.125272,8.75791e-4,0.700565
+proportion,The traveler hit the delay.,hit,hit.01,abstract,0,0,0
+proportion,The traveler hit the delay.,hit,hit.01,concrete,0,0,0
+proportion,The traveler hit the delay.,hit,hit.02,abstract,1,1,1
+proportion,The traveler hit the delay.,hit,hit.02,concrete,0,0,0
+proportion,The traveler investigated the map.,investigate,investigate.01,abstract,1,1,1
+proportion,The traveler killed the afternoon.,kill,kill.01,abstract,0,0,0
+proportion,The traveler killed the afternoon.,kill,kill.01,concrete,0,0,0
+proportion,The traveler killed the afternoon.,kill,kill.03,abstract,0,0,0
+proportion,The traveler killed the afternoon.,kill,kill.04,abstract,1,1,1
+proportion,The waiter bumped the table.,bump,bump.01,concrete,0,0,0
+proportion,The waiter bumped the table.,bump,bump.02,abstract,0,0,0
+proportion,The waiter bumped the table.,bump,bump.02,concrete,1,1,1
+proportion,The waiter cleared the table.,clear,clear.01,concrete,1,1,1
+proportion,The waiter cleared the table.,clear,clear.02,abstract,0,0,0
+proportion,The waiter cleared the table.,clear,clear.03,abstract,0,0,0
+proportion,The waiter filled the glass.,fill,fill.01,abstract,0,0,0
+proportion,The waiter filled the glass.,fill,fill.01,concrete,1,1,1
+proportion,The waiter filled the glass.,fill,fill.06,abstract,0,0,0
+proportion,The worker cleared the rubble.,clear,clear.01,concrete,1,1,1
+proportion,The worker cleared the rubble.,clear,clear.02,abstract,0,0,0
+proportion,The worker cleared the rubble.,clear,clear.03,abstract,0,0,0
+proportion,The worker pulled the lever.,pull,pull.01,concrete,1,1,1
+proportion,The worker pulled the lever.,pull,pull.06,abstract,0,0,0
+proportion,The worker pulled the lever.,pull,pull.09,abstract,0,0,0
+proportion,The writer combined the chapters.,combine,combine.01,abstract,1,1,1
+proportion,The writer combined the chapters.,combine,combine.01,concrete,0,0,0
+proportion,The writer covered the election.,cover,cover.01,abstract,0,0,0
+proportion,The writer covered the election.,cover,cover.02,concrete,0,0,0
+proportion,The writer covered the election.,cover,cover.03,abstract,1,1,1
+proportion,X broke Y.,break,break.01,concrete,0.972164,0.948504,0.988612
+proportion,X broke Y.,break,break.13,abstract,0.0239655,0.00887741,0.0465536
+proportion,X broke Y.,break,break.18,abstract,0.0038705,8.40429e-5,0.0144392
+proportion,X bumped Y.,bump,bump.01,concrete,0.852073,0.533788,0.994126
+proportion,X bumped Y.,bump,bump.02,abstract,0.0690934,9.95206e-4,0.280273
+proportion,X bumped Y.,bump,bump.02,concrete,0.0788334,9.57002e-4,0.326997
+proportion,X chipped Y.,chip,chip.01,abstract,0.531039,0.0255723,0.986555
+proportion,X chipped Y.,chip,chip.01,concrete,0.468961,0.0134452,0.974428
+proportion,X cleaned Y.,clean,clean.01,abstract,0.376074,0.00338832,0.967596
+proportion,X cleaned Y.,clean,clean.01,concrete,0.623926,0.0324042,0.996612
+proportion,X cleared Y.,clear,clear.01,concrete,0.649086,0.538547,0.750215
+proportion,X cleared Y.,clear,clear.02,abstract,0.26121,0.172037,0.363708
+proportion,X cleared Y.,clear,clear.03,abstract,0.0897047,0.0378626,0.160709
+proportion,X closed Y.,close,close.01,abstract,0.342664,0.0167486,0.833109
+proportion,X closed Y.,close,close.01,concrete,0.574682,0.0841751,0.903602
+proportion,X closed Y.,close,close.03,abstract,0.0826531,0.0506274,0.121315
+proportion,X combined Y.,combine,combine.01,abstract,0.491632,0.0579338,0.963521
+proportion,X combined Y.,combine,combine.01,concrete,0.508368,0.0364791,0.942066
+proportion,X concluded Y.,conclude,conclude.02,abstract,1,1,1
+proportion,X considered Y.,consider,consider.02,abstract,1,1,1
+proportion,X covered Y.,cover,cover.01,abstract,0.531222,0.478125,0.584315
+proportion,X covered Y.,cover,cover.02,concrete,0.319231,0.270601,0.368614
+proportion,X covered Y.,cover,cover.03,abstract,0.149547,0.113563,0.190444
+proportion,X debated Y.,debate,debate.01,abstract,1,1,1
+proportion,X decided Y.,decide,decide.01,abstract,1,1,1
+proportion,X destroyed Y.,destroy,destroy.01,abstract,0.287317,0.0030802,0.896199
+proportion,X destroyed Y.,destroy,destroy.01,concrete,0.712683,0.103801,0.99692
+proportion,X discovered Y.,discover,discover.01,abstract,0.514271,0.0253415,0.960475
+proportion,X discovered Y.,discover,discover.01,concrete,0.485729,0.0395252,0.974658
+proportion,X emptied Y.,empty,empty.01,abstract,0.478808,0.0249412,0.963742
+proportion,X emptied Y.,empty,empty.01,concrete,0.521192,0.0362576,0.975059
+proportion,X filled Y.,fill,fill.01,abstract,0.323276,0.0117608,0.861061
+proportion,X filled Y.,fill,fill.01,concrete,0.621475,0.0818922,0.939758
+proportion,X filled Y.,fill,fill.06,abstract,0.0552495,0.0279112,0.0904566
+proportion,X folded Y.,fold,fold.01,concrete,0.199788,0.0364602,0.455577
+proportion,X folded Y.,fold,fold.03,concrete,0.443619,0.186593,0.70886
+proportion,X folded Y.,fold,fold.06,abstract,0.356593,0.134842,0.616362
+proportion,X fought Y.,fight,fight.01,abstract,0.494153,0.0199493,0.971253
+proportion,X fought Y.,fight,fight.01,concrete,0.505847,0.0287467,0.980051
+proportion,X hit Y.,hit,hit.01,abstract,0.196035,0.00102788,0.626474
+proportion,X hit Y.,hit,hit.01,concrete,0.537828,0.113134,0.75246
+proportion,X hit Y.,hit,hit.02,abstract,0.143613,0.00751355,0.2763
+proportion,X hit Y.,hit,hit.02,concrete,0.122524,0.00517986,0.270029
+proportion,X investigated Y.,investigate,investigate.01,abstract,1,1,1
+proportion,X jabbed Y.,jab,jab.01,abstract,0.566872,0.0533814,0.978933
+proportion,X jabbed Y.,jab,jab.01,concrete,0.433128,0.0210672,0.946619
+proportion,X kicked Y.,kick,kick.01,concrete,1,1,1
+proportion,X killed Y.,kill,kill.01,abstract,0.529337,0.113976,0.875218
+proportion,X killed Y.,kill,kill.01,concrete,0.468317,0.12306,0.883676
+proportion,X killed Y.,kill,kill.03,abstract,0.00117856,2.85193e-5,0.00432827
+proportion,X killed Y.,kill,kill.04,abstract,0.00116721,2.6339e-5,0.00424589
+proportion,X murdered Y.,murder,murder.01,abstract,0.490267,0.0211534,0.961589
+proportion,X murdered Y.,murder,murder.01,concrete,0.509733,0.0384111,0.978847
+proportion,X opened Y.,open,open.01,concrete,0.836415,0.800395,0.868621
+proportion,X opened Y.,open,open.02,abstract,0.163585,0.131379,0.199605
+proportion,X pondered Y.,ponder,ponder.01,abstract,1,1,1
+proportion,X pounded Y.,pound,pound.02,abstract,0.411206,0.0132697,0.936731
+proportion,X pounded Y.,pound,pound.02,concrete,0.588794,0.0632693,0.98673
+proportion,X poured Y.,pour,pour.01,concrete,1,1,1
+proportion,X proved Y.,prove,prove.01,abstract,1,1,1
+proportion,X pulled Y.,pull,pull.01,concrete,0.940506,0.897444,0.972248
+proportion,X pulled Y.,pull,pull.06,abstract,0.0523159,0.0230563,0.093165
+proportion,X pulled Y.,pull,pull.09,abstract,0.007178,1.9733e-4,0.0249871
+proportion,X pushed Y.,push,push.01,concrete,0.835783,0.778866,0.886653
+proportion,X pushed Y.,push,push.04,abstract,0.140831,0.0937161,0.194688
+proportion,X pushed Y.,push,push.05,abstract,0.0233863,0.00655049,0.0506577
+proportion,X scrubbed Y.,scrub,scrub.01,abstract,0.393218,0.0547167,0.865902
+proportion,X scrubbed Y.,scrub,scrub.01,concrete,0.606782,0.134098,0.945283
+proportion,X shattered Y.,shatter,shatter.01,abstract,0.538312,0.0378025,0.980095
+proportion,X shattered Y.,shatter,shatter.01,concrete,0.461688,0.019905,0.962197
+proportion,X shook Y.,shake,shake.01,abstract,0.401967,0.0646986,0.83418
+proportion,X shook Y.,shake,shake.01,concrete,0.598033,0.16582,0.935301
+proportion,X shot Y.,shoot,shoot.01,concrete,0.226524,0.160783,0.298776
+proportion,X shot Y.,shoot,shoot.02,concrete,0.551384,0.470308,0.632446
+proportion,X shot Y.,shoot,shoot.03,abstract,0.222092,0.157436,0.293507
+proportion,X smeared Y.,smear,smear.01,concrete,0.464059,0.0948529,0.88643
+proportion,X smeared Y.,smear,smear.02,abstract,0.535941,0.11357,0.905147
+proportion,X split Y.,split,split.01,abstract,0.478645,0.0236571,0.969438
+proportion,X split Y.,split,split.01,concrete,0.521355,0.0305622,0.976343
+proportion,X stabbed Y.,stab,stab.01,concrete,1,1,1
+proportion,X washed Y.,wash,wash.01,concrete,1,1,1
+proportion,X wiped Y.,wipe,wipe.01,abstract,0.43241,0.00667029,0.96406
+proportion,X wiped Y.,wipe,wipe.01,concrete,0.56759,0.0359403,0.99333

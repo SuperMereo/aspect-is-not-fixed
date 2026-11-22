@@ -2,27 +2,30 @@
 
 Reads the sentence inventory in ``data/manner-result-sentences.csv`` and writes
 ``materials/src/cloze-items.json``, which ``cloze-experiment.js`` loads at run
-time. The generator performs three operations.
+time. The output holds the five conditions the experiment ran, each split into
+the lists participants were assigned to, in the order the items were deployed.
 
 **1. Blanks are inserted into each sentence.** A cloze trial is a sentence with
 in-line dropdowns, and ``plugin-cloze-dropdown.ts`` builds those by splitting the
 trial text on the literal marker ``%_%``, so the number of markers written is the
 number of dropdowns the participant sees. This script drops the final period,
-appends three markers (preposition, numeral, time unit), and restores the period.
+appends the markers, and restores the period. Episodic sentences get three
+(preposition, numeral, time unit); generic sentences get two (preposition, time
+unit), since a generic description does not ask for a number of units.
 
-**2. The per-condition set removes shared surface forms.** Each row of the CSV is
-one PropBank sub-sense, so distinct senses of the same verb are distinct rows, but
-they often share a *bleached* counterpart, since bleaching replaces the arguments
-with general nouns and collapses the sense distinction. Collecting into a set per
-condition deduplicates those collisions. This is why the conditions come out at
-different sizes: 166 contentful episodic sentences, 106 bleached episodic ones,
-and 40 templatic (one per verb).
+**2. Each sentence is placed in its deployed list.** The inventory records, for
+every condition, which list a sentence was assigned to
+(``cloze_list_<condition>``) and its 0-based position within that list
+(``cloze_position_<condition>``). Each participant sees one list. Every
+inventory row is one PropBank (sub-)sense, so the bleached, generic, and
+templatic sentences of distinct senses of a verb often coincide; such a shared
+sentence is one item, and every row carrying it records the same list and
+position. This is why the conditions differ in size: 166 contentful sentences
+per clause type, 106 bleached episodic, 96 bleached generic, and 40 templatic
+(one per verb).
 
-**3. Sentences are assigned to lists by round robin over the sorted set.**
-Sentence *i* is assigned to list ``i % num_lists[cond]``, which distributes each
-condition evenly and yields near-equal list lengths. Sorting before assignment
-makes the output independent of hash iteration order: reruns produce a
-byte-identical file. Each participant sees one list.
+The generic conditions were run but are not reported in the paper; see
+``materials/README.md``.
 """
 
 import csv
@@ -31,52 +34,50 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 
-# How many Latin-square lists to split each condition across. Contentful
-# conditions get the most lists because they have the most sentences; templatic
-# gets one because 40 items is already a short enough block for one sitting.
-num_lists = {
-    "contentful_episodic": 4,
-    "bleached_episodic": 2,
-    "templatic_episodic": 1
+# The conditions in the order the experiment defines them, with the number of
+# dropdowns each condition's items carry.
+CONDITIONS = {
+    "contentful_episodic": 3,
+    "bleached_episodic": 3,
+    "contentful_generic": 2,
+    "bleached_generic": 2,
+    "templatic_episodic": 3,
 }
 
-# A set per condition, so bleached and templatic sentences shared across senses
-# collapse to one item rather than being presented several times over.
-sentences = {
-    cond: set() for cond in num_lists
-}
 
-items = {
-    cond: [[] for _ in range(num_lists[cond])]
-    for cond in sentences
-}
+def make_item(sentence, num_blanks):
+    """Replace the final period with `num_blanks` dropdown markers and a period."""
+    assert sentence.endswith("."), sentence
+    return sentence[:-1] + " %_%" * num_blanks + "."
+
 
 def make_json(csv_fpath, json_fpath):
     """Read the sentence inventory and write the per-condition, per-list JSON."""
 
-    with open(csv_fpath, encoding='utf-8') as csvf:
+    placement = {cond: {} for cond in CONDITIONS}
+
+    with open(csv_fpath, encoding="utf-8") as csvf:
         print(f"Constructing sentences from {csv_fpath}...")
 
         for r in csv.DictReader(csvf):
-            for cond, condition_sentences in sentences.items():
-                # Strip the period, append one `%_%` per dropdown, restore the
-                # period: three markers for preposition, numeral, and time unit.
-                condition_sentences.add(
-                    r[f"sentence_{cond}"][:-1] + r" %_% %_% %_%."
-                )
+            for cond, num_blanks in CONDITIONS.items():
+                item = make_item(r[f"sentence_{cond}"], num_blanks)
+                slot = (int(r[f"cloze_list_{cond}"]), int(r[f"cloze_position_{cond}"]))
+                # A sentence shared by several rows must sit in one place.
+                assert placement[cond].setdefault(item, slot) == slot, (cond, item)
 
-    for cond, sents in sentences.items():
-        # Round robin over the *sorted* sentences: item i lands in list
-        # i % num_lists. Sorting is what makes the output reproducible.
-        for i, s in enumerate(sorted(sents)):
-            list_num = i % num_lists[cond]
-            items[cond][list_num].append(s)
+    items = {}
+    for cond, placed in placement.items():
+        num_lists = 1 + max(list_num for list_num, _ in placed.values())
+        items[cond] = [[] for _ in range(num_lists)]
+        for item, (list_num, position) in sorted(placed.items(), key=lambda kv: kv[1]):
+            # Positions run 0, 1, 2, ... within each list, with no gaps or ties.
+            assert position == len(items[cond][list_num]), (cond, item)
+            items[cond][list_num].append(item)
 
-        # Sanity check on the assignment; list lengths differ by at most 1.
-        for item_list in items[cond]:
-            print(cond, len(item_list))
+        print(cond, [len(item_list) for item_list in items[cond]])
 
-    with open(json_fpath, 'w', encoding='utf-8') as jsonf:
+    with open(json_fpath, "w", encoding="utf-8") as jsonf:
         print(f"Dumping json to {json_fpath}...")
         jsonf.write(json.dumps(items, indent=4))
 

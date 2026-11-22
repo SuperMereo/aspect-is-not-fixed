@@ -15,6 +15,16 @@ number for the rest of the file. This depends on the item files being the ones
 that were deployed; regenerate them with `materials/scripts/make_items_json.py`
 if they are missing.
 
+**Reported conditions.** Experiment 1a ran five conditions: contentful,
+bleached, and templatic episodic descriptions, and contentful and bleached
+generic descriptions (e.g. *People push things.*). The paper reports only the
+episodic ones, so `REPORTED_CONDITIONS` lists those three, and sessions in any
+other condition are left out of the CSV. Adding a condition to that tuple and
+rerunning the script is all that is needed to include its data. A generic row
+takes its head nouns, and their `*_plural` and `*_mass` features, from the
+inventory's noun columns, which describe the episodic sentences; the generic
+sentences use the same head nouns as bare plurals or mass nouns.
+
 **Participant identifiers.** Raw `PROLIFIC_PID` values never reach the CSV; they
 are replaced by stable UUIDs through `anonymize.py`, which documents where the
 map lives.
@@ -43,6 +53,18 @@ OUT_PATH = REPO / "data" / "data-cloze.csv"
 RAW_DIR = Path(os.environ.get("RAW_JATOS_DIR", REPO / "data" / "raw-jatos"))
 JATOS_GLOB = str(RAW_DIR / "jatos_results_data_2024071*" / "*" / "*" / "*.txt")
 
+# The Experiment 1a conditions whose data go into data-cloze.csv. The generic
+# conditions (contentful_generic, bleached_generic) were run but are not
+# reported in the paper; add them here to include their data.
+REPORTED_CONDITIONS = (
+    "contentful_episodic",
+    "bleached_episodic",
+    "templatic_episodic",
+)
+
+# How many participants each list of a condition was run with.
+PARTICIPANTS_PER_LIST = {"contentful": 10, "bleached": 20, "templatic": 40}
+
 
 def load_metadata() -> pd.DataFrame:
     raw = pd.read_csv(META_PATH)
@@ -60,10 +82,7 @@ def load_metadata() -> pd.DataFrame:
         ],
         value_name="sentence",
         var_name="condition",
-        value_vars=[
-            "sentence_contentful_episodic", "sentence_bleached_episodic",
-            "sentence_templatic_episodic",
-        ],
+        value_vars=[f"sentence_{cond}" for cond in REPORTED_CONDITIONS],
     )
     melted["condition"] = melted["condition"].str.replace("sentence_", "", regex=False)
     melted["sentence"] = melted["sentence"].str.strip()
@@ -146,8 +165,7 @@ def load_metadata() -> pd.DataFrame:
 
 def load_judgments(items: dict, anon: ParticipantAnonymizer) -> pd.DataFrame:
     max_count = {
-        cond: 10 if "contentful" in cond else (20 if "bleached" in cond else 40)
-        for cond in items
+        cond: PARTICIPANTS_PER_LIST[cond.split("_")[0]] for cond in items
     }
     list_counts: Counter = Counter()
     rows = []
@@ -173,6 +191,8 @@ def load_judgments(items: dict, anon: ParticipantAnonymizer) -> pd.DataFrame:
                         break
                 if condition is None:
                     continue
+                if condition not in REPORTED_CONDITIONS:
+                    break
 
             if list_counts[(condition, list_num)] > max_count[condition]:
                 break
@@ -209,26 +229,22 @@ def load_judgments(items: dict, anon: ParticipantAnonymizer) -> pd.DataFrame:
     )
 
 
-def validate(data: pd.DataFrame) -> None:
-    n = len(data)
-    n_sent = data["sentence"].nunique()
-    assert n == 5380, f"expected 5380 judgments, got {n}"
-    assert n_sent == 312, f"expected 312 sentences, got {n_sent}"
+def validate(data: pd.DataFrame, metadata: pd.DataFrame) -> None:
     assert data.duplicated(
         subset=["participant", "condition", "list_num", "sentence",
                 "preposition", "numeral", "duration"]
     ).sum() == 0, "duplicate trial records remain"
-    # Count responses by sentence.
+    # Every sentence of every reported condition has a full set of responses:
+    # one per participant who saw its list.
     counts = data.groupby(["condition", "sentence"]).size()
-    for cond, expected in [
-        ("contentful_episodic", 10),
-        ("bleached_episodic", 20),
-        ("templatic_episodic", 40),
-    ]:
-        sub = counts.loc[cond] if cond in counts.index.get_level_values(0) else None
-        assert sub is not None
+    for cond in REPORTED_CONDITIONS:
+        expected = PARTICIPANTS_PER_LIST[cond.split("_")[0]]
+        sentences = set(metadata.loc[metadata["condition"] == cond, "sentence"])
+        sub = counts.loc[cond] if cond in counts.index.get_level_values(0) else pd.Series(dtype=int)
+        assert set(sub.index) == sentences, f"{cond}: sentences differ from the inventory"
         assert (sub == expected).all(), f"{cond} response counts not all {expected}"
-    print(f"OK: {n} judgments, {n_sent} sentences")
+        print(f"OK: {cond}: {len(sub)} sentences x {expected} responses = {sub.sum()}")
+    print(f"OK: {len(data)} judgments, {data['sentence'].nunique()} sentences")
 
 
 def main() -> None:
@@ -257,9 +273,7 @@ def main() -> None:
         .reset_index(name="count")
     )
     needs_more = list_counts[
-        ((list_counts.contentfulness == "contentful") & (list_counts["count"] < 10))
-        | ((list_counts.contentfulness == "bleached") & (list_counts["count"] < 20))
-        | ((list_counts.contentfulness == "templatic") & (list_counts["count"] < 40))
+        list_counts["count"] < list_counts.contentfulness.map(PARTICIPANTS_PER_LIST)
     ]
     if len(needs_more):
         raise SystemExit(f"Incomplete sample: {len(needs_more)} lists still short")
@@ -277,7 +291,7 @@ def main() -> None:
     # Normalize empty numerals.
     data["numeral"] = data["numeral"].fillna("").astype(str)
 
-    validate(data[header])
+    validate(data[header], metadata)
     data[header].to_csv(OUT_PATH, index=False)
     anon.save()
     print(f"Wrote {OUT_PATH}")

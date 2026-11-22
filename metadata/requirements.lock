@@ -1,0 +1,33 @@
+# Exact runtime environment for the metadata scripts (Python 3.14).
+# lairs 0.9.0 plus the dependency versions pinned in lairs v0.9.0's own uv.lock.
+# lairs declares libipld without an upper bound, and libipld 4.x breaks
+# lairs' repository-CAR decoder (see README, Known issues), so do not loosen these.
+lairs==0.9.0
+annotated-types==0.7.0
+anyio==4.14.2
+bases==0.3.0
+certifi==2026.6.17
+didactic==0.15.0
+dnspython==2.8.0
+duckdb==1.5.4
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.18
+libipld==3.4.1
+linkify-it-py==2.1.0
+markdown-it-py==4.2.0
+mdit-py-plugins==0.6.1
+mdurl==0.1.2
+multiformats==0.3.1.post4
+multiformats-config==0.3.1
+panproto==0.74.3
+platformdirs==4.11.0
+pyarrow==24.0.0
+pygments==2.20.0
+rich==15.0.0
+textual==8.2.8
+typing-extensions==4.16.0
+typing-validation==2.2.1
+uc-micro-py==2.0.0
+websockets==16.1.1

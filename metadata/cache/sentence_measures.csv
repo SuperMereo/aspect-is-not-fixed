@@ -1,0 +1,313 @@
+sentence,verb,generality,cloze,overlap_in,overlap_for,eval_time_unit
+The advertisement pulled the customers.,pull,contentful,-0.0316958,2.59073,4.54728,minutes
+The affair split the couple.,split,contentful,-1.72119,2.67942,3.47055,decades
+The analyst cleaned the data.,clean,contentful,1.14742,4.25114,4.39244,hours
+The arrow hit the target.,hit,contentful,3.20732,3.98215,4.71509,seconds
+The article smeared the celebrity.,smear,contentful,-1.58036,2.81968,4.27412,weeks
+The artist smeared the paint.,smear,contentful,-0.318937,4.08278,6.04452,minutes
+The artwork pushed the boundaries.,push,contentful,-3.8727,2.66688,4.63032,decades
+The athlete murdered the competition.,murder,contentful,1.62511,3.18245,3.91184,hours
+The athlete pushed the limit.,push,contentful,-1.59149,3.07207,5.70179,minutes
+The athlete shot the ball.,shoot,contentful,0.779281,4.12908,5.52503,seconds
+The attacker stabbed the victim.,stab,contentful,-1.82597,3.13893,5.52246,minutes
+The author closed the chapter.,close,contentful,1.99712,2.85272,1.80059,hours
+The baker closed the oven.,close,contentful,-1.59466,2.01298,2.02481,hours
+The baker combined the ingredients.,combine,contentful,-0.871421,4.31541,5.95429,minutes
+The baker folded the flour.,fold,contentful,-0.0907859,3.89506,5.47282,minutes
+The baker smeared the frosting.,smear,contentful,0.671793,4.43671,5.37074,minutes
+The baker split the dough.,split,contentful,1.84353,3.71642,4.07695,minutes
+The ball bumped the couch.,bump,contentful,0.11705,3.11083,5.0719900000000004,seconds
+The barbarians destroyed the city.,destroy,contentful,2.50856,4.96849,5.43081,weeks
+The bartender poured the wine.,pour,contentful,-0.0577185,4.0374,5.03653,minutes
+The bartender shook the martini.,shake,contentful,-3.20894,2.82564,6.19448,minutes
+The batter hit the ball.,hit,contentful,1.63966,2.97107,4.24879,seconds
+The bookkeeper cleared the payment.,clear,contentful,2.83106,4.35544,3.63584,minutes
+The boss destroyed the morale.,destroy,contentful,1.58707,4.09456,5.55565,minutes
+The burglar broke the window.,break,contentful,5.3476,3.90632,4.18957,seconds
+The burglar discovered the key.,discover,contentful,5.52931,2.42476,2.26308,minutes
+The business killed the competition.,kill,contentful,0.389541,2.88785,3.09704,years
+The business pulled the service.,pull,contentful,-1.22038,0.996731,1.60982,months
+The butler emptied the tub.,empty,contentful,2.04784,4.92178,5.22167,minutes
+The buyer emptied the account.,empty,contentful,3.06122,4.31935,3.8071,minutes
+The candidate jabbed the opponent.,jab,contentful,-2.31087,2.65612,5.4718,minutes
+The cat killed the mouse.,kill,contentful,3.11846,4.31964,4.71847,minutes
+The chairperson opened the meeting.,open,contentful,-1.30883,1.1562,1.90287,hours
+The channel covered the story.,cover,contentful,-0.388403,3.36383,4.55016,hours
+The chauffeur closed the door.,close,contentful,2.28549,3.45938,2.38749,seconds
+The chef folded the eggs.,fold,contentful,0.0652841,3.87552,4.46121,minutes
+The chef stabbed the potato.,stab,contentful,0.628036,4.21567,5.51732,seconds
+The child chipped the teacup.,chip,contentful,2.83482,4.0165,4.15298,seconds
+The child destroyed the sandcastle.,destroy,contentful,4.11247,6.24983,6.99698,seconds
+The child folded the paper.,fold,contentful,1.67675,4.60194,5.08254,minutes
+The child hit the pillow.,hit,contentful,-0.968627,1.34312,4.54315,minutes
+The cleaner folded the clothes.,fold,contentful,0.770177,4.11342,4.34183,hours
+The cleaner wiped the table.,wipe,contentful,0.740271,4.65569,6.20718,minutes
+The climber pulled the rope.,pull,contentful,-1.02453,2.37126,4.97957,minutes
+The committee decided the outcome.,decide,contentful,3.2355,3.87589,3.15643,hours
+The company broke the law.,break,contentful,-2.38007,1.95753,5.16081,decades
+The company murdered the startup.,murder,contentful,3.56652,3.25339,3.55872,days
+The company pushed the product.,push,contentful,-1.7573,2.59754,4.81524,months
+The company scrubbed the records.,scrub,contentful,0.196272,3.35731,4.03652,hours
+The consultant opened the discussion.,open,contentful,-2.35152,0.695754,2.6106,hours
+The controversy split the community.,split,contentful,-2.06163,1.97891,4.21983,years
+The cook scrubbed the pot.,scrub,contentful,-1.49293,4.28177,6.82024,minutes
+The cook washed the plate.,wash,contentful,-0.199275,4.60462,5.83462,minutes
+The couple killed the evening.,kill,contentful,0.617952,2.43908,3.22519,hours
+The criminal killed the victim.,kill,contentful,3.49438,4.47284,4.56729,minutes
+The customer chipped the figurine.,chip,contentful,2.79351,4.16015,3.86764,seconds
+The dad washed the car.,wash,contentful,-0.583741,4.13744,5.07103,hours
+The dean bumped the meeting.,bump,contentful,-1.71798,0.237879,1.0867,hours
+The defendant fought the charges.,fight,contentful,-2.92239,2.97012,4.80834,weeks
+The detective investigated the footprints.,investigate,contentful,-3.6335,3.4028,5.92877,hours
+The director shot the scene.,shoot,contentful,-0.36781,3.58492,5.18946,weeks
+The doctor broke the news.,break,contentful,3.50533,3.22383,2.87924,minutes
+The doctor discovered the cure.,discover,contentful,2.02118,3.02024,2.50901,decades
+The doctor jabbed the patient.,jab,contentful,-1.20039,4.33136,6.73324,seconds
+The donations filled the need.,fill,contentful,-0.235185,2.51669,3.88557,months
+The driver bumped the curb.,bump,contentful,0.0883834,3.10431,5.13657,seconds
+The editor cleaned the manuscript.,clean,contentful,1.07795,4.19208,4.19303,hours
+The employee considered the feedback.,consider,contentful,-3.05066,2.64328,5.38059,hours
+The engineer wiped the data.,wipe,contentful,2.32761,5.02931,5.51216,minutes
+The event filled the time.,fill,bleached,-1.5808,5.46839,6.91413,hours
+The event shook the organization.,shake,bleached,-1.82557,2.84959,5.0235900000000004,weeks
+The executive closed the deal.,close,contentful,2.3989,3.27283,2.48028,hours
+The expenses chipped the savings.,chip,contentful,-1.82561,2.38219,4.57769,months
+The explorer discovered the island.,discover,contentful,3.87816,1.82194,1.76118,months
+The farmer filled the bucket.,fill,contentful,1.02287,4.84798,5.57625,minutes
+The farmer opened the gate.,open,contentful,0.717625,2.84288,3.11607,minutes
+The festival filled the weekend.,fill,contentful,-0.645918,2.99591,4.25243,days
+The founder folded the company.,fold,contentful,1.25769,2.29179,2.44524,years
+The gardener bumped the statue.,bump,contentful,1.26484,2.60341,4.16611,seconds
+The gardener shook the tree.,shake,contentful,-2.37526,2.8471,5.75732,minutes
+The giraffe fought the lion.,fight,contentful,-3.73901,2.12501,5.11215,hours
+The guest broke the plate.,break,contentful,5.34382,3.90278,4.31576,seconds
+The hiker cleared the obstacle.,clear,contentful,2.24578,3.92468,2.91117,hours
+The horse cleared the jump.,clear,contentful,5.3538,5.30386,4.1727,seconds
+The horse kicked the stool.,kick,contentful,0.729838,4.30687,5.07445,seconds
+The hostess poured the tea.,pour,contentful,0.909437,4.53443,6.31275,seconds
+The housekeeper cleaned the kitchen.,clean,contentful,0.788841,4.80698,5.51857,hours
+The hunter shot the deer.,shoot,contentful,3.72623,4.53062,4.62079,seconds
+The hurricane hit the coastline.,hit,contentful,-0.886982,2.21001,5.0173,hours
+The husband murdered the heiress.,murder,contentful,4.90079,4.21302,4.56414,minutes
+The husband pondered the relationship.,ponder,contentful,-5.26805,3.67455,6.41159,months
+The idea hit the researcher.,hit,contentful,2.7085,2.49162,3.27063,minutes
+The inconsistency shattered the case.,shatter,contentful,1.39566,2.50193,2.67554,hours
+The insurance covered the damage.,cover,contentful,-1.51897,2.31348,3.73737,years
+The investor hit the goal.,hit,contentful,0.398418,1.95345,2.72548,months
+The janitor cleaned the bathroom.,clean,contentful,0.106644,4.66074,5.86782,hours
+The janitor scrubbed the floor.,scrub,contentful,-1.84198,4.01814,5.91411,hours
+The joke killed the evening.,kill,contentful,2.65325,3.43455,4.1054,seconds
+The journalist broke the story.,break,contentful,3.95673,2.95139,2.80791,minutes
+The journalist smeared the business.,smear,contentful,-2.07624,2.62734,4.02641,months
+The judge decided the case.,decide,contentful,3.26016,3.75626,3.31372,hours
+The jury debated the case.,debate,contentful,-3.33966,3.61095,6.56673,days
+The lawyer closed the case.,close,contentful,2.82326,3.18162,2.40153,weeks
+The lawyer pounded the evidence.,pound,contentful,-2.73872,2.98558,5.45338,hours
+The lawyer proved the case.,prove,contentful,3.3122,4.40516,4.36357,weeks
+The lies shattered the trust.,shatter,contentful,2.57704,2.88844,3.09906,minutes
+The love filled the void.,fill,contentful,-1.17086,2.64789,4.20203,years
+The lumberjack split the log.,split,contentful,3.75255,4.35531,4.32428,seconds
+The manager folded the project.,fold,contentful,3.39388,3.31558,3.17035,minutes
+The mathematician proved the theorem.,prove,contentful,2.8638,4.07214,4.60368,weeks
+The mistake killed the proposal.,kill,contentful,1.74252,2.95614,3.23591,minutes
+The mobster murdered the rival.,murder,contentful,3.60025,3.5293,4.06097,hours
+The murder shook the town.,shake,contentful,-3.20485,1.03852,3.82956,years
+The musician pounded the drum.,pound,contentful,-4.60103,2.44424,5.54678,hours
+The negativity chipped the morale.,chip,contentful,-2.21911,2.61607,4.06305,years
+The news shook the family.,shake,contentful,-2.61205,1.50167,3.55316,months
+The nurse covered the wound.,cover,contentful,2.31848,3.74087,3.42895,minutes
+The officer cleared the request.,clear,contentful,1.18179,3.69093,3.53626,hours
+The organization broke the thing.,break,bleached,3.67015,3.61354,4.35398,minutes
+The organization considered the thing.,consider,bleached,-2.9401,4.22214,6.6507,weeks
+The organization covered the stuff.,cover,bleached,-0.619297,4.11662,5.03241,hours
+The organization covered the thing.,cover,bleached,-0.474092,4.60468,6.12128,days
+The organization decided the thing.,decide,bleached,2.52933,4.22155,3.40884,weeks
+The organization killed the other organization.,kill,bleached,1.79353,3.3062,2.72692,months
+The organization killed the people.,kill,bleached,1.36748,3.58319,3.30303,weeks
+The organization murdered the other organization.,murder,bleached,1.65096,3.73194,3.2729,months
+The organization pulled the thing.,pull,bleached,-1.48776,3.3644,5.02246,weeks
+The organization pushed the thing.,push,bleached,-2.21677,4.22184,6.49652,hours
+The organization scrubbed the thing.,scrub,bleached,0.121774,5.22291,6.23119,minutes
+The organization scrubbed the things.,scrub,bleached,-1.06257,4.63456,5.84265,hours
+The painter combined the colors.,combine,contentful,-0.657604,4.37833,5.75348,minutes
+The patient fought the illness.,fight,contentful,-4.19277,2.65592,4.64168,years
+The people debated the thing.,debate,bleached,-4.34239,5.52432,8.30435,hours
+The people destroyed the place.,destroy,bleached,2.18245,5.66546,6.11174,hours
+The people destroyed the stuff.,destroy,bleached,3.31443,5.6905,6.09168,minutes
+The people killed the time.,kill,bleached,-0.959352,4.06671,5.86904,hours
+The people pulled the thing.,pull,bleached,-0.781257,3.98957,6.01416,minutes
+The person broke the thing.,break,bleached,4.75532,4.55157,4.7081,seconds
+The person bumped the thing.,bump,bleached,0.972868,4.68315,6.04265,seconds
+The person chipped the thing.,chip,bleached,3.40894,5.35895,5.54779,seconds
+The person cleaned the place.,clean,bleached,-0.282635,5.80696,7.1792,hours
+The person cleaned the stuff.,clean,bleached,-1.08091,5.53375,7.2472,hours
+The person cleaned the thing.,clean,bleached,-0.892025,5.30045,6.84228,hours
+The person cleared the place.,clear,bleached,1.87504,4.99266,5.04904,hours
+The person cleared the stuff.,clear,bleached,2.84612,5.63968,6.14758,minutes
+The person cleared the thing.,clear,bleached,2.31442,4.98703,4.77632,minutes
+The person closed the thing.,close,bleached,3.03019,4.5021,4.0327,seconds
+The person combined the organizations.,combine,bleached,0.288949,4.66781,3.93495,weeks
+The person combined the things.,combine,bleached,1.31159,5.35354,5.04832,minutes
+The person concluded the thing.,conclude,bleached,3.30189,3.52946,3.06669,minutes
+The person considered the stuff.,consider,bleached,-2.37361,5.03586,7.52073,minutes
+The person covered the thing.,cover,bleached,1.22898,4.57953,5.29201,minutes
+The person decided the thing.,decide,bleached,3.41921,4.58819,3.74868,minutes
+The person destroyed the thing.,destroy,bleached,3.23141,5.95474,6.42137,minutes
+The person discovered the place.,discover,bleached,3.02248,2.39803,2.4124,hours
+The person discovered the thing.,discover,bleached,5.20599,3.63411,3.15262,minutes
+The person emptied the place.,empty,bleached,2.16895,4.49766,3.96688,hours
+The person emptied the thing.,empty,bleached,2.35214,5.47685,5.21466,minutes
+The person filled the thing.,fill,bleached,0.925774,6.03719,6.65393,minutes
+The person folded the organization.,fold,bleached,1.036,3.169,3.50067,months
+The person folded the stuff.,fold,bleached,-0.462362,4.82332,5.77842,hours
+The person folded the thing.,fold,bleached,-0.173832,3.7918,4.06981,hours
+The person folded the things.,fold,bleached,0.764155,5.46756,6.14066,minutes
+The person fought the other person.,fight,bleached,-2.50976,4.85289,7.73419,minutes
+The person fought the thing.,fight,bleached,-2.67995,4.45365,6.46145,hours
+The person fought the things.,fight,bleached,-2.33282,5.50963,7.38964,minutes
+The person hit the thing.,hit,bleached,-1.42532,3.26663,5.50046,minutes
+The person investigated the thing.,investigate,bleached,-4.17106,4.90527,7.5757,months
+The person investigated the things.,investigate,bleached,-2.69545,4.7674,6.8466,hours
+The person jabbed the other person.,jab,bleached,-0.387048,5.33847,7.07711,seconds
+The person jabbed the thing.,jab,bleached,-0.283716,5.46317,7.27745,seconds
+The person kicked the thing.,kick,bleached,-2.21962,4.62136,6.42604,minutes
+The person killed the other person.,kill,bleached,2.80431,4.97512,4.94521,minutes
+The person killed the time.,kill,bleached,-1.2498,3.6445,5.384,hours
+The person murdered the other people.,murder,bleached,3.27243,4.68678,4.10129,minutes
+The person murdered the other person.,murder,bleached,3.91723,4.76913,4.6628,minutes
+The person opened the event.,open,bleached,0.704766,2.39227,3.01711,hours
+The person opened the thing.,open,bleached,4.21834,4.54687,4.32962,seconds
+The person pondered the thing.,ponder,bleached,-4.83567,5.6489,8.35541,hours
+The person pounded the stuff.,pound,bleached,-2.25799,5.22794,7.4115,minutes
+The person pounded the thing.,pound,bleached,-3.19156,5.24195,7.70285,minutes
+The person poured the stuff.,pour,bleached,-0.683328,5.04215,6.75673,minutes
+The person proved the thing.,prove,bleached,2.85272,5.41484,5.71891,minutes
+The person pulled the thing.,pull,bleached,-0.827369,4.34487,6.46155,minutes
+The person pushed the thing.,push,bleached,-1.96807,4.70905,7.26505,minutes
+The person pushed the things.,push,bleached,-1.73686,4.75878,6.90476,minutes
+The person scrubbed the place.,scrub,bleached,-3.01331,5.724,8.05399,hours
+The person scrubbed the thing.,scrub,bleached,-1.45491,6.12083,8.11116,minutes
+The person shattered the stuff.,shatter,bleached,3.91761,4.96295,4.50716,seconds
+The person shattered the thing.,shatter,bleached,4.35237,4.7938,4.24614,seconds
+The person shook the thing.,shake,bleached,-3.38609,4.73138,7.57391,minutes
+The person shot the event.,shoot,bleached,-0.602761,4.7438,6.13361,hours
+The person shot the other person.,shoot,bleached,3.12861,4.76842,5.16229,seconds
+The person shot the thing.,shoot,bleached,2.02484,5.07431,5.79333,seconds
+The person shot the things.,shoot,bleached,0.162913,4.78998,5.1705,minutes
+The person smeared the organization.,smear,bleached,0.167621,4.04132,4.66525,minutes
+The person smeared the stuff.,smear,bleached,-0.532902,5.06668,6.51535,minutes
+The person split the thing.,split,bleached,3.8159,4.51231,4.29628,seconds
+The person stabbed the other person.,stab,bleached,-0.888219,4.60053,6.13182,minutes
+The person stabbed the thing.,stab,bleached,-1.47798,4.7542,6.62741,minutes
+The person washed the thing.,wash,bleached,0.0886857,5.48312,6.57362,minutes
+The person wiped the stuff.,wipe,bleached,-1.10365,6.06083,8.1599,minutes
+The person wiped the thing.,wipe,bleached,-0.88416,5.77221,7.92099,minutes
+The photographer shot the wedding.,shoot,contentful,-1.3723,3.61282,5.84137,hours
+The pilot pushed the button.,push,contentful,0.603656,3.48191,5.48933,seconds
+The player kicked the ball.,kick,contentful,-1.87347,3.36674,5.20569,minutes
+The policy covered the accident.,cover,contentful,-2.07683,2.38232,3.66185,years
+The politician pushed the policy.,push,contentful,-2.44806,2.21013,5.07484,months
+The politicians debated the law.,debate,contentful,-3.48376,3.52814,6.38235,hours
+The potter pounded the clay.,pound,contentful,-3.47902,3.15909,6.17091,minutes
+The presenter closed the speech.,close,contentful,2.50855,3.07665,2.6699,minutes
+The president broke the promise.,break,contentful,2.22884,2.79732,3.13874,days
+The programmer emptied the cache.,empty,contentful,4.455,4.74644,4.59639,seconds
+The prosecutor concluded the investigation.,conclude,contentful,2.87422,1.63972,1.25423,months
+The publisher scrubbed the article.,scrub,contentful,1.00544,3.88577,4.88261,minutes
+The pundit jabbed the mandate.,jab,contentful,-1.20555,2.98362,4.73947,minutes
+The regulators pulled the product.,pull,contentful,-0.615453,0.969545,1.671,weeks
+The researcher pondered the question.,ponder,contentful,-4.24553,3.77102,6.61638,days
+The reviewer destroyed the book.,destroy,contentful,0.523401,3.70431,4.81998,hours
+The rider jabbed the horse.,jab,contentful,-1.03173,4.40638,6.75499,seconds
+The robber shattered the window.,shatter,contentful,3.81692,3.94908,2.5223,seconds
+The robber shot the victim.,shoot,contentful,2.93915,4.4727,5.11367,seconds
+The sailor emptied the bucket.,empty,contentful,3.97971,5.63204,5.67612,seconds
+The scandal pulled the reporters.,pull,contentful,-0.706286,2.11967,3.84626,hours
+The school considered the request.,consider,contentful,-2.39776,2.5216,4.91298,weeks
+The secretary filled the schedule.,fill,contentful,-0.816986,2.99707,3.19842,hours
+The shopper pushed the cart.,push,contentful,-2.69065,2.04704,4.9921,hours
+The singer shattered the glass.,shatter,contentful,4.23594,4.06632,3.24089,seconds
+The snow covered the footprints.,cover,contentful,2.32917,3.94051,3.7454,minutes
+The soldiers fought the enemy.,fight,contentful,-5.05537,2.12473,5.13233,years
+The solution hit the inventor.,hit,contentful,1.10069,1.49585,2.77936,months
+The speaker concluded the presentation.,conclude,contentful,3.27734,1.9677,2.02758,hours
+The speaker pounded the point.,pound,contentful,-1.27662,3.49166,5.84303,minutes
+The student discovered the answer.,discover,contentful,5.39274,3.51934,2.93203,minutes
+The stuff covered the things.,cover,bleached,-0.187976,4.2844,5.68709,days
+The teacher bumped the deadline.,bump,contentful,-1.63209,0.222237,1.12963,weeks
+The teacher combined the classes.,combine,contentful,-1.58256,3.40863,3.49728,hours
+The teacher opened the window.,open,contentful,-1.49976,1.98728,3.02765,hours
+The teacher wiped the spill.,wipe,contentful,1.58884,4.82222,5.70425,minutes
+The team killed the rivals.,kill,contentful,1.34623,3.43593,3.15231,hours
+The technician shot the fireworks.,shoot,contentful,-2.56876,2.66096,4.82502,hours
+The thief wiped the phone.,wipe,contentful,0.505708,4.29764,5.12252,hours
+The thing bumped the other thing.,bump,bleached,-0.0213817,4.58348,6.97721,seconds
+The thing chipped the stuff.,chip,bleached,1.16151,5.06077,5.49241,minutes
+The thing cleared the other thing.,clear,bleached,2.89544,4.84854,4.44279,minutes
+The thing covered the other thing.,cover,bleached,-1.23929,3.91457,4.86512,hours
+The thing filled the place.,fill,bleached,0.121943,5.13587,6.09203,hours
+The thing fought the other thing.,fight,bleached,-1.96497,4.94674,7.26223,minutes
+The thing hit the other thing.,hit,bleached,1.07749,4.27273,6.01322,seconds
+The thing hit the person.,hit,bleached,1.17827,3.65981,5.41325,seconds
+The thing hit the place.,hit,bleached,0.514352,3.1081,4.71186,minutes
+The thing kicked the other thing.,kick,bleached,-2.151,4.53251,6.22488,minutes
+The thing killed the other thing.,kill,bleached,2.73053,4.18652,4.26359,minutes
+The thing pulled the people.,pull,bleached,-1.12889,4.10384,6.37982,minutes
+The thing shattered the other thing.,shatter,bleached,4.44801,4.84231,4.89618,seconds
+The thing shook the people.,shake,bleached,-1.23627,3.8419,5.61142,minutes
+The thing smeared the person.,smear,bleached,-0.250293,4.07519,5.18615,minutes
+The thing split the organization.,split,bleached,-0.20458,2.76309,3.71757,months
+The thing split the people.,split,bleached,1.07374,4.02729,4.33596,minutes
+The things chipped the other things.,chip,bleached,2.6344,5.42497,6.21869,seconds
+The things filled the other thing.,fill,bleached,1.93847,5.51584,5.82009,minutes
+The things shattered the other thing.,shatter,bleached,4.86737,4.31616,4.69895,seconds
+The traveler hit the delay.,hit,contentful,-0.828806,1.52548,4.38208,days
+The traveler investigated the map.,investigate,contentful,-3.23408,3.51853,5.91367,hours
+The traveler killed the afternoon.,kill,contentful,1.29619,2.45552,2.45806,hours
+The waiter bumped the table.,bump,contentful,0.97706,2.64541,4.58624,seconds
+The waiter cleared the table.,clear,contentful,3.97811,5.37816,5.27403,minutes
+The waiter filled the glass.,fill,contentful,2.81008,5.59957,6.07402,seconds
+The worker cleared the rubble.,clear,contentful,2.02486,4.77848,5.20357,hours
+The worker pulled the lever.,pull,contentful,1.47318,3.2735,4.50948,seconds
+The writer combined the chapters.,combine,contentful,-0.272384,3.77793,3.09474,weeks
+The writer covered the election.,cover,contentful,-1.34728,3.19986,4.45452,years
+X broke Y.,break,templatic,2.46816,3.17263,3.83299,minutes
+X bumped Y.,bump,templatic,0.227902,4.57805,6.29543,seconds
+X chipped Y.,chip,templatic,0.992689,4.50527,5.03538,minutes
+X cleaned Y.,clean,templatic,-1.07016,5.13805,6.52514,hours
+X cleared Y.,clear,templatic,2.25525,4.6767,5.39122,minutes
+X closed Y.,close,templatic,2.72614,3.82814,3.1757,seconds
+X combined Y.,combine,templatic,0.524543,3.89684,4.90747,minutes
+X concluded Y.,conclude,templatic,1.64825,3.12713,2.93303,hours
+X considered Y.,consider,templatic,-3.94227,3.84941,5.9324,weeks
+X covered Y.,cover,templatic,-1.18427,3.68549,4.7125,hours
+X debated Y.,debate,templatic,-4.42482,5.19087,7.38624,hours
+X decided Y.,decide,templatic,2.00389,3.61137,4.10083,minutes
+X destroyed Y.,destroy,templatic,2.78206,5.46227,5.64708,minutes
+X discovered Y.,discover,templatic,3.11735,2.45862,2.51897,years
+X emptied Y.,empty,templatic,2.45464,4.57069,4.57264,minutes
+X filled Y.,fill,templatic,1.51464,4.98251,5.35195,minutes
+X folded Y.,fold,templatic,0.250167,4.77503,6.18594,minutes
+X fought Y.,fight,templatic,-4.3864,4.88092,6.96705,hours
+X hit Y.,hit,templatic,-2.46333,3.4089,5.93889,minutes
+X investigated Y.,investigate,templatic,-4.0827,4.9096,6.65168,months
+X jabbed Y.,jab,templatic,-0.0405793,4.81933,6.19164,seconds
+X kicked Y.,kick,templatic,-2.54611,4.18725,5.92169,minutes
+X killed Y.,kill,templatic,2.96044,3.1416,3.35557,minutes
+X murdered Y.,murder,templatic,3.53896,3.66184,3.67835,minutes
+X opened Y.,open,templatic,2.87221,4.73467,4.89272,seconds
+X pondered Y.,ponder,templatic,-4.82754,5.63483,7.6115,weeks
+X pounded Y.,pound,templatic,-3.08712,4.83721,6.28563,minutes
+X poured Y.,pour,templatic,0.67672,4.87823,6.56608,seconds
+X proved Y.,prove,templatic,1.83591,3.68833,4.15189,hours
+X pulled Y.,pull,templatic,-2.39278,4.01708,5.39863,hours
+X pushed Y.,push,templatic,0.204668,4.47569,6.44745,seconds
+X scrubbed Y.,scrub,templatic,-2.91925,5.80215,7.22521,hours
+X shattered Y.,shatter,templatic,4.27992,4.97182,4.49635,seconds
+X shook Y.,shake,templatic,-1.84184,5.68311,7.66365,seconds
+X shot Y.,shoot,templatic,3.16677,4.35719,4.10026,seconds
+X smeared Y.,smear,templatic,0.394671,4.90514,5.98649,seconds
+X split Y.,split,templatic,1.65584,3.76412,4.42922,minutes
+X stabbed Y.,stab,templatic,0.437262,4.98978,6.13007,seconds
+X washed Y.,wash,templatic,-2.62585,4.79222,6.07091,hours
+X wiped Y.,wipe,templatic,-0.856551,5.17674,7.06492,minutes

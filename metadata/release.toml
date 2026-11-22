@@ -1,0 +1,11 @@
+# Release configuration for the Layers metadata of White, Grimm, & Glass (2026).
+#
+# `account` is the ONE value to change before publishing: the DID of the new
+# factslab.io account that will hold every record. Every AT-URI the generator
+# writes (and every cross-reference between records) is derived from it, so
+# regenerating after editing it rewrites the whole graph consistently. The
+# placeholder below is syntactically valid (did:plc + 24 base32 characters) so
+# the records validate strictly before the account exists, but it resolves to
+# nothing. The account's handle is never written into a record; it is needed
+# only to log in at publish time (see README, "Publishing").
+account = "did:plc:placeholderfactslabioaaa"

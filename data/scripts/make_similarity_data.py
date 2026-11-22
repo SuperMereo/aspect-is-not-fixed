@@ -11,7 +11,17 @@ a regular expression rather than by a lookup.
 the stimulus shows whichever order the participant saw. The two are compared to
 set `sentences_reversed`, and the canonical order is always written into
 `sentence1`/`sentence2`, so that a pair is one key across participants regardless
-of how it was displayed.
+of how it was displayed. Note that `sentences_reversed` is True when the displayed
+first sentence *equals* the canonical `sentence1`, that is, when the pair was shown
+in (sentence1, sentence2) order.
+
+**Per-sentence columns.** Every paired column (`contentfulness1/2`,
+`propbank_sense1/2`, `concreteness1/2`) follows the `sentence1`/`sentence2`
+positions. The sense and concreteness labels come from the items file, which
+orders them by position. Contentfulness is instead looked up per sentence in the
+sentence inventory, because the items file labels every mixed pair
+`contentful`/`bleached` even when `sentence1` is the bleached member (the
+materials notebook tagged both orders alike to balance them across lists).
 
 **Calibration trials.** The eight calibration pairs are defined inline below
 rather than read from the items file, because they also live inline in
@@ -123,6 +133,14 @@ metadata["concreteness"] = metadata[["contentfulness", "concreteness"]].apply(
 
 metadata = metadata.drop_duplicates()
 
+# Each contentful and bleached sentence occurs exactly once in the inventory, so
+# its contentfulness can be read off the sentence itself. The items file cannot
+# be trusted for this: it labels every mixed pair "contentful"/"bleached"
+# whichever member is in the sentence1 position (see the module docstring).
+sentence_contentfulness = dict(
+    zip(metadata.sentence, metadata.contentfulness)
+)
+
 calibration_items = {
     "calibration_somewhat_similar-1": {
         "sentence1": "The architect designed the building.",
@@ -204,7 +222,8 @@ for fname in sorted(glob(str(RAW_DIR / "jatos_results_data_20240807*" / "*" / "*
                     verb_type = item["verb_type"]
                     verb = item["verb"]
                     pb_sense1, pb_sense2 = item["propbank_sense1"], item["propbank_sense2"]
-                    contentfulness1, contentfulness2 = item["contentfulness1"], item["contentfulness2"]
+                    contentfulness1 = sentence_contentfulness[sentence1_canonical]
+                    contentfulness2 = sentence_contentfulness[sentence2_canonical]
                     concreteness1, concreteness2 = item["concreteness1"], item["concreteness2"]
 
                 else:
@@ -222,9 +241,10 @@ for fname in sorted(glob(str(RAW_DIR / "jatos_results_data_20240807*" / "*" / "*
 
                     pb_sense1 = pb_sense2 = concreteness1 = concreteness2 = "calibration"
 
+                # Raw IDs are replaced by pseudonyms before writing (below).
                 data.append(
                     [
-                        anon.pseudonym(row["PROLIFIC_PID"]),
+                        row["PROLIFIC_PID"],
                         verb_type,
                         verb,
                         contentfulness1,
@@ -270,6 +290,10 @@ participant_list = pd.DataFrame(
 )
 
 data = pd.merge(participant_list, data)
+
+# Replace raw IDs with pseudonyms.
+data["participant"] = data.participant.map(anon.pseudonym)
+participant_list["participant"] = participant_list.participant.map(anon.pseudonym)
 
 # Verify that every list reached its sample target.
 list_counts = participant_list.value_counts("list_num").reset_index()

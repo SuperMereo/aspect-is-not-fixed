@@ -25,6 +25,38 @@ responses to the sentence inventory, and pseudonymizes the participant ids
 before writing its CSV. Paths resolve from the repository root, so a script
 can be run from anywhere.
 
+## Experiment 1a conditions
+
+Experiment 1a ran five conditions, and `materials/src/cloze-items.json` holds the
+deployed lists of all five. The paper reports the three episodic ones
+(`contentful_episodic`, `bleached_episodic`, `templatic_episodic`), and
+`make_cloze_data.py` writes only those: the tuple `REPORTED_CONDITIONS` at the
+top of the script lists them, the script recovers every session's condition and
+list from the five conditions' lists, and it leaves out sessions in a condition
+not in the tuple. The two generic conditions (`contentful_generic`,
+`bleached_generic`) were run but are not reported or released here.
+
+To add the generic data, add `"contentful_generic"` and `"bleached_generic"` to
+`REPORTED_CONDITIONS` and rerun `make_cloze_data.py`. Nothing else in the build
+changes: the inventory already has the generic sentences and their lists, the
+script strips the generic items' two blanks, leaves `numeral` empty (generic
+trials did not ask for one), and checks that every generic sentence has 10
+(contentful) or 20 (bleached) responses. The episodic rows of `data-cloze.csv`
+come out unchanged. On a generic row, `clause_type` is `generic`, and the noun
+columns, including `*_plural` and `*_mass`, are those of the episodic sentence
+of the same inventory row; the generic sentence uses the same head nouns as
+bare plurals or mass nouns.
+
+Downstream of `data-cloze.csv`, the analyses (`analysis/reproduce.ipynb`) and
+`materials/scripts/make_proportion_items.ipynb` keep only
+`clause_type == "episodic"`, so generic rows leave their results unchanged.
+The Layers metadata do not yet cover generic rows:
+`metadata/scripts/generate_metadata.py` builds sentence records and Experiment
+1a condition records from the three episodic conditions only (`SENTENCES`,
+`CLOZE_COND`), and `check_metadata.py` compares the records against the
+episodic sentences of the inventory. Both need generic sentences and conditions
+added before they will run on a `data-cloze.csv` that includes generic rows.
+
 ## Raw dumps
 
 The raw JATOS files carry participants' Prolific IDs and are not published.
@@ -60,21 +92,16 @@ excludes it.
 We use one map across all three experiments. A handful of people took part
 in more than one study, and one UUID preserves that cross-study identity.
 
-## Reproduction status
+## Who can run these scripts
 
-Each script is deterministic (it sorts its inputs before writing), so a rerun
-reproduces the shipped CSV given the same raw dumps and participant map:
-
-- **`make_proportion_data.py`** reproduces `data/data-proportion.csv` exactly
-(10,340 rows).
-- **`make_similarity_data.py`** reproduces `data/data-similarity.csv` exactly
-(12,416 rows).
-- **`make_cloze_data.py`** does not currently complete. It recovers 5,245 of
-the expected 5,380 judgments (117 of 120 participants) and halts at its own
-completeness check with two lists short of quota: three participants' files
-match no list during condition inference. It is a work in progress. Treat
-it as documentation of the extraction. The gap appears to lie in condition
-inference rather than missing data, but diagnosing it is a separate task.
+The raw JATOS results contain participants' Prolific IDs, so they are not
+distributed, and these three scripts can be run only by the authors. They
+are included to document how each file in `data/` was derived from the raw
+results. Where a list collected more sessions than its quota, the first
+sessions read were kept, so the exact set of sessions in a list depends on the
+order in which the raw files are read. Everything downstream of `data/` (the analyses, figures,
+reported numbers, and the Layers metadata in `metadata/`) can be regenerated
+by anyone from the released files.
 
 ## The PropBank sense distribution
 
@@ -100,71 +127,6 @@ anything. `--help` lists the language, part-of-speech, and output options.
 
 # Layers metadata records
 
-`generate_metadata.py` reads the data in `data/`, the sentence inventory, and
-the verbatim experiment text in `materials/experiment_text.json`, and builds
-the dataset's `pub.layers.*` ATProto records (the corpus, the stimulus
-expressions, the per-sentence annotations, the experiment definitions and
-templates, and the trial-level judgments), and `validate_metadata.mjs` checks
-every one against the layers lexicons.
-
-The generated records are not tracked. They are a deterministic function of
-`data/` plus the scripts, so only the scripts are versioned.
-`generate_metadata.py` writes to `data/scripts/records/` (gitignored; override
-with `LAYERS_RECORDS_DIR`), and a rebuild reproduces them.
-
-## Run it
-
-```bash
-cd data/scripts
-python3 generate_metadata.py          # writes records/ (5,844 records)
-node    validate_metadata.mjs          # strict validation against the lexicons
-```
-
-Configure via `data/scripts/.env` (gitignored; see `.env.example`):
-
-- `LAYERS_LEXICONS`: a local checkout of the layers lexicons, pinned to the
-  **0.9.0** release (branch `lexicons-v0.9.0`). It is not vendored here, but validation
-needs it. `npm install` once so the validator can resolve `@atproto/lexicon`.
-- `SUPERMEREO_STEM` (default `supertelicity.eng`), `SUPERMEREO_DOMAIN` (default
-`supermereo.io`), `SUPERMEREO_EPRINT_URL`: the handle/identifier config below.
-
-## Handle and rkey convention
-
-Records publish to the Layers PDS under the finalized handle convention (see
-`notes/handle-convention-for-new-datasets.md` in layers-repo):
-
-```
-<namespace>.<stem>.repo.<domain>     per-namespace data account
-<stem>.repo.<domain>                 the dataset account (no namespace)
-```
-
-`<namespace>` is a `pub.layers` lexicon namespace, `<stem>` is
-`<dataset>.<lang-iso639-3>` (here `supertelicity.eng`), `repo` marks a data
-account, and `<domain>` is `supermereo.io`. Thus, the corpus is at
-`corpus.supertelicity.eng.repo.supermereo.io`, its expressions at
-`expression.…`, and so on. AT-URIs are `at://<handle>/<collection>/<rkey>`,
-where the rkey is the first 24 hex of
-`SHA-256("<handle>|<collection>|<local_id>")`, so a rebuild upserts the
-existing records. The handle resolves to a minted DID at publish time. Nothing
-hardcodes a DID.
-
-## What gets generated (5,844 records, all `pub.layers.*`)
-
-| Group | Records | Count |
-|---|---|---:|
-| Annotation vocabulary | `ontology` + `typeDef` | 1 + 3 |
-| Corpus + paper link | `corpus` + `corpus.membership` + `eprint.eprint` + `eprint.dataLink` | 1 + 498 + 1 + 4 |
-| Verb inventory | `resource.collection`/`entry`/`membership` + pair `clusterSet` | 1 + 40 + 40 + 1 |
-| PropBank senses | `resource.collection`/`entry`/`membership` | 1 + 62 + 62 |
-| Stimuli (166 × 3 variants) | `expression` + variant `clusterSet` | 498 + 1 |
-| Per-expression annotations | `annotationLayer` (3 layers × 498) | 1494 |
-| Cohort + value pools | `persona` + `resource.collection`/`entry`/`membership` | 1 + 5 + 68 + 68 |
-| Experiments + templates | `experimentDef` (3+3+1) + cloze/proportion `template` | 7 + 3 + 3 |
-| Exp 2 stimulus chain | pair `template` + pool + entries + memberships + `filling` | 1 + 1 + 272 + 272 + 750 |
-| Exp 2 calibration | `template` + pair + child-sentence `expression` + `filling` | 1 + 8 + 16 + 8 |
-| Per-stimulus fillings | Exp 1a + Exp 1b `filling` | 498 + 582 |
-| Trial-level responses | `judgmentSet` (one per participant × condition) | 572 |
-
-The paper is referenced as an external eprint: the `eprint.eprint` record
-carries the paper's URL/DOI (`SUPERMEREO_EPRINT_URL`), and the corpus,
-expressions, and fillings point at that record.
+The Layers (and chive) records for this dataset are built and validated in
+[`metadata/`](../../metadata/), with the `lairs` client and the current
+`pub.layers.*` lexicons; see `metadata/README.md`.

@@ -9,6 +9,13 @@ Source for the three behavioral experiments reported in White, Grimm, & Glass
 | 1b (proportion)      | §3      | `src/proportion-experiment.js`  | `src/proportion-items.json`   |
 | 2 (similarity)       | §5      | `src/similarity-experiment.js`  | `src/similarity-items.json`   |
 
+Experiment 1a ran five conditions: contentful, bleached, and templatic
+episodic descriptions, which the paper reports, and contentful and bleached
+generic descriptions (e.g. *People push things.*), which it does not. The
+generic conditions are part of `cloze-experiment.js` and `cloze-items.json`, so
+the materials here are those that were deployed, but their responses are not
+released in `data/`.
+
 We collected all three experiments on Prolific via JATOS, and the build
 toolchain is [jspsych-builder](https://github.com/bjoluc/jspsych-builder) on
 top of jsPsych 7.x.
@@ -111,7 +118,7 @@ plausible duration units for the proportion stimuli).
 
 | script                                       | output                          | requires                                         |
 |----------------------------------------------|---------------------------------|--------------------------------------------------|
-| `scripts/make_items_json.py`                 | `src/cloze-items.json`          | `data/manner-result-sentences.csv`               |
+| `scripts/make_items_json.py`                 | `src/cloze-items.json`          | `data/manner-result-sentences.csv` (sentences and their `cloze_list_*`, `cloze_position_*` columns) |
 | `scripts/make_proportion_items.ipynb`        | `src/proportion-items.json`     | `data/data-cloze.csv` + `manner-result-sentences.csv` |
 | `scripts/make_similarity_judgment_materials.ipynb` | `src/similarity-items.json` | `data/manner-result-sentences.csv`               |
 
@@ -139,8 +146,11 @@ Each script overwrites the corresponding file in `src/`. All three are
 deterministic: each fixes its ordering before writing, so regeneration is
 independent of `PYTHONHASHSEED`.
 
-For proportion and similarity, regeneration reproduces the deployed item files
-byte for byte. The cloze generator reproduces the deployed per-condition lists.
+Regeneration reproduces the deployed item files exactly. The cloze generator
+places each sentence in the list and at the position the inventory records for
+it (`cloze_list_<condition>`, `cloze_position_<condition>`), so it writes the
+five conditions' deployed lists, with the items of each list in their deployed
+order.
 
 Run order matters in one place. `make_proportion_items.ipynb` derives each
 sentence's fixed temporal modifier from the Experiment 1a responses in

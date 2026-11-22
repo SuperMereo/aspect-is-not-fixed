@@ -31,8 +31,18 @@ The relabeling is one-to-one: each participant's trials remain grouped, and the
 by-participant random effects are unaffected.
 
 Because we assign a UUID per participant rather than per file, a participant who
-took part in two studies keeps one UUID across both. Five people did, so a
-handful of IDs appear in two of the three files.
+took part in two studies keeps one UUID across both. Four IDs appear in two of
+the three files: one in `data-cloze.csv` and `data-similarity.csv`, and three in
+`data-proportion.csv` and `data-similarity.csv`. Five people in the raw JATOS
+dumps took part in two studies, though. The fifth took part in Experiment 1a in
+a condition with generic event descriptions (e.g. *People push things.*), which
+the paper does not report and `data-cloze.csv` does not include, so only their
+Experiment 2 data appear here. We counted these by matching Prolific IDs across
+the raw dumps that the scripts in [`scripts/`](scripts/README.md) read, and
+UUIDs across the three released files. (One further person, who appears only in
+`data-proportion.csv`, also has an episodic Experiment 1a session in an interim
+JATOS export that none of those dumps include; that session is not in
+`data-cloze.csv`.)
 
 License: **CC-BY-SA-4.0** (see `LICENSE` in this directory).
 
@@ -62,8 +72,9 @@ provenance.
 Every event description used as a stimulus in any of the three experiments,
 generated once and then deterministically slotted into the three task
 materials. Each row is one PropBank (sub-)sense of one verb, and gives the
-three versions of that description we report on: contentful, bleached, and
-templatic.
+three versions of that description we report on (contentful, bleached, and
+templatic), two generic versions used only in Experiment 1a, and the
+Experiment 1a list each version was assigned to.
 
 Each verb's PropBank senses (Palmer et al. 2005) were retrieved for the
 transitive frame. Highly idiomatic senses and senses favoring determiners
@@ -78,6 +89,22 @@ contentful arguments with definite NPs headed by general nouns (`person`,
 of the primary two was natural). A templatic counterpart of the form `X
 verb-PAST Y` was generated per verb following Kane et al. (2022).
 
+Experiment 1a also ran two generic conditions, in which the contentful and
+bleached descriptions were rewritten with bare plural or mass arguments in the
+present tense (e.g. *Batters hit balls.*, *People hit things.*) and
+participants chose a preposition and a time unit but no numeral. The paper does
+not report these conditions, and `data-cloze.csv` does not include their
+responses. The generic sentences are kept here because they are part of the
+deployed Experiment 1a materials.
+
+The `cloze_list_*` and `cloze_position_*` columns record where each sentence
+appeared in Experiment 1a: which list it was assigned to and its position in
+that list, both 0-based. `cloze_list_*` uses the same numbering as `list_num` in
+`data-cloze.csv`. A sentence shared by several rows (for instance a bleached
+sentence common to two senses of a verb) was one item, so every row carrying it
+records the same list and position. `materials/scripts/make_items_json.py`
+builds the deployed Experiment 1a lists from these columns.
+
 | column                                            | description                                                                 |
 |---------------------------------------------------|-----------------------------------------------------------------------------|
 | `verb`, `verb_type`                               | as in `manner-result-verbs.csv`                                             |
@@ -85,10 +112,14 @@ verb-PAST Y` was generated per verb following Kane et al. (2022).
 | `concreteness`                                    | `concrete` or `abstract`                                                    |
 | `subject_noun_contentful`, `object_noun_contentful` | head nouns chosen for the contentful sentence                             |
 | `subject_noun_bleached`,   `object_noun_bleached`   | head nouns chosen for the bleached counterpart                            |
-| `*_plural`, `*_mass`                              | grammatical features of each chosen noun                                    |
+| `*_plural`, `*_mass`                              | grammatical features of each chosen noun in the episodic sentences          |
 | `sentence_contentful_episodic`                    | the contentful event description (used in Exp 1a/1b/2)                      |
 | `sentence_bleached_episodic`                      | the bleached counterpart (Exp 1a/1b/2)                                      |
 | `sentence_templatic_episodic`                     | the templatic version `X verb-PAST Y` (Exp 1a/1b only)                      |
+| `sentence_contentful_generic`                     | generic counterpart of the contentful sentence (Exp 1a only; not reported)  |
+| `sentence_bleached_generic`                       | generic counterpart of the bleached sentence (Exp 1a only; not reported)    |
+| `cloze_list_<condition>`                          | Exp 1a list the `sentence_<condition>` item was assigned to (0-based), for each of the five conditions `contentful_episodic`, `bleached_episodic`, `contentful_generic`, `bleached_generic`, `templatic_episodic` |
+| `cloze_position_<condition>`                      | position of that item within its list (0-based), the order in the deployed materials |
 
 See the verb list in `manner-result-verbs.csv` plus PropBank.
 
@@ -191,11 +222,11 @@ spanning four kinds (`very_similar`, `somewhat_similar`, `somewhat_different`,
 | `participant`                         | pseudonymous participant UUID (see above)                                   |
 | `list_num`                            | Latin-square list                                                           |
 | `verb`, `verb_type`                   | the shared verb; `verb_type` is `manner`, `result`, or `calibration`        |
-| `contentfulness1`, `contentfulness2`  | `contentful` / `bleached` for each member of the pair                       |
-| `propbank_sense1`, `propbank_sense2`  | PropBank sense of each sentence (used to derive within- v. cross-sense pairs)|
-| `concreteness1`, `concreteness2`      | concrete/abstract labels                                                    |
-| `sentences_reversed`                  | whether the pair was shown in (sentence2, sentence1) order on this trial    |
-| `sentence1`, `sentence2`              | the two event descriptions shown                                            |
+| `contentfulness1`, `contentfulness2`  | `contentful` / `bleached` for `sentence1` and `sentence2` respectively (calibration rows: `contentful`) |
+| `propbank_sense1`, `propbank_sense2`  | PropBank sense of `sentence1` and `sentence2`, as roleset plus gloss (e.g. `break.18: violate ...`); for a bleached member, the sense of the inventory row the pair was built from; `calibration` on calibration rows |
+| `concreteness1`, `concreteness2`      | `concrete` / `abstract` for `sentence1` and `sentence2` (same provenance as `propbank_sense1/2`); `calibration` on calibration rows |
+| `sentences_reversed`                  | despite its name, `True` when the pair was shown in (`sentence1`, `sentence2`) order on this trial and `False` when it was shown in (`sentence2`, `sentence1`) order |
+| `sentence1`, `sentence2`              | the two event descriptions shown, in the pair's canonical order (the same for every participant), not necessarily the order of display |
 | `response`                            | integer slider value in $[0, 100]$ (0 = *completely identical*, 100 = *extremely different*) |
 | `rt`                                  | response time in milliseconds                                               |
 

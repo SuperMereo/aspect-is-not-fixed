@@ -1,0 +1,6 @@
+# Local environments and downloaded snapshots (rebuildable; never released).
+.venv/
+node_modules/
+__pycache__/
+.remote-cache/
+.publish-store/
